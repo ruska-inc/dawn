@@ -927,11 +927,9 @@ display: none;
     padding-bottom: 0!important;
   }
 
-  .banner .banner__content .banner__box{
+  .banner .section-01.banner__content .banner__box{
     padding: 3rem 2rem 4rem;
-    bottom: 4rem;
     background: initial;
-    text-align: left;
   }
 
   .banner .section-01.banner__content .banner__box{

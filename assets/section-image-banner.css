@@ -346,7 +346,7 @@
 }
 
 .banner__box {
-  padding: 4rem 1.5rem;
+  padding: 0 1.5rem;
   position: relative;
   height: fit-content;
   align-items: center;
@@ -511,6 +511,8 @@
 
   .banner__box > * + .banner__text p{
     font-size: 12px;
+    margin-top: 3rem;
+    line-height: 24px;
   }
 
   .banner__box > * + .banner__buttons{

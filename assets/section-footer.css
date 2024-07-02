@@ -11,6 +11,10 @@
   display: block;
 }
 
+.footer-block:nth-child(2) .footer-block__details-content + p{
+  display: none;
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
@@ -24,6 +28,17 @@
 
   .footer-block.grid__item:first-child {
     margin-top: 0;
+  }
+
+  .footer-block .footer-block__details-content + p{
+    margin: 0;
+    color: #FFF;
+    font-family: "Noto Serif JP";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 1.68px;
   }
 
   .footer__content-top {
@@ -52,6 +67,8 @@
 .footer__content-bottom-wrapper {
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 749px) {

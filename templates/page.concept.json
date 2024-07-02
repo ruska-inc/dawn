@@ -37,7 +37,7 @@
         "text_jHAPPD": {
           "type": "text",
           "settings": {
-            "text": "目には見えない。 でもそれはたしかに存在している 関係性の間にある目に見えないもの それを知るために、日々を重ねて、年を積んでいく 少しずつ見えてきた先に、うっすらと見えてきた 空間、時間 日本にある自然、日本の文化 それらが生み出すもの それがこの日本酒GENである",
+            "textarea": "目には見えない。<br>でもそれはたしかに存在している<br><br>関係性の間にある目に見えないもの<br>それを知るために、日々を重ねて、年を積んでいく<br><br>少しずつ見えてきた先に、うっすらと見えてきた<br><br>空間、時間<br><br>日本にある自然、日本の文化 それらが生み出すもの<br><br>それがこの日本酒GENである",
             "text_style": "body"
           }
         }
@@ -45,6 +45,9 @@
       "block_order": [
         "heading_UUwcKL",
         "text_jHAPPD"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.banner__box {position: absolute; bottom: 0; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img-concept-02.jpg",
@@ -355,7 +358,7 @@
         "text_JWCmWG"
       ],
       "custom_css": [
-        "p{color: #9CC6F0;}"
+        "p {color: #9cc6f0;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img-concept-11.jpg",

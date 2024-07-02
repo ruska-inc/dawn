@@ -100,6 +100,7 @@
                           </li>
                         {%- endfor -%}
                       </ul>
+                      <p>20歳未満の者の飲酒は法律で禁止されています</p>
                     {%- endif -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
@@ -299,7 +300,6 @@
         <small class="copyright__content"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
         </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}

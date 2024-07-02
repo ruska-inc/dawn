@@ -116,6 +116,10 @@
     },
     "image_section_05_iCWrar": {
       "type": "image-section-05",
+      "custom_css": [
+        ".banner {margin-bottom: 12rem;}",
+        "@media screen and (max-width: 749px) {img {object-position: 50%; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img-quality-05.jpg",
         "image_overlay_opacity": 0,
@@ -382,7 +386,8 @@
         "buttons_CkdTri"
       ],
       "custom_css": [
-        "p {color: #fff;}"
+        "p {color: #fff;}",
+        "@media screen and (max-width: 749px) {.banner__box {padding: 4rem; } img {object-position: 30%; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img-quality-20.jpg",
