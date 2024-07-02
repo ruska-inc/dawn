@@ -1,0 +1,423 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "video_j6PxrR": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/-b6e8-41b0-b542-378f94a8d928.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_section_01_44KPVb": {
+      "type": "image-section-01",
+      "blocks": {
+        "heading_qz6DJ7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality",
+            "heading_size": "h1"
+          }
+        },
+        "text_XfTMPW": {
+          "type": "text",
+          "settings": {
+            "textarea": "ここにしかない<br>限定最上級酒",
+            "text_style": "body"
+          }
+        },
+        "buttons_yqnkjN": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "商品を見る",
+            "button_link_1": "shopify:\/\/products\/gen-間",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qz6DJ7",
+        "text_XfTMPW",
+        "buttons_yqnkjN"
+      ],
+      "custom_css": [
+        "p {color: #fff;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-01_01.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_fa9Xt8": {
+      "type": "image-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-02.jpg",
+        "image_2": "shopify:\/\/shop_images\/img-quality-03.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_WLtTzB": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {max-width: 1100px; margin: 12rem auto; padding: 2rem;}",
+        ".banner__content {max-width: 80%; aspect-ratio: 3 \/ 2;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-04.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_section_05_iCWrar": {
+      "type": "image-section-05",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-05.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_Yr4MJj": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-06.jpg",
+        "image_2": "shopify:\/\/shop_images\/img-quality-07.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_TdJK8K": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {max-width: 1100px; margin: 12rem auto; padding: 2rem;}",
+        ".banner__content {max-width: 80%; aspect-ratio: 3 \/ 2;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-08.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_fErPGY": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-09.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_section_06_xCbLhL": {
+      "type": "image-section-06",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-10.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "textarea": "サンプルテキスト<br>サンプルテキスト"
+      }
+    },
+    "image_banner_MjA9Cw": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-11.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_GrKaKf": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {max-width: 1100px; margin: 12rem auto; padding: 2rem;}",
+        ".banner__content {max-width: 80%; aspect-ratio: 3 \/ 2;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-12.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_06_kqenyP": {
+      "type": "image-section-06",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-13.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "textarea": "サンプルテキスト<br>サンプルテキスト"
+      }
+    },
+    "image_banner_ztxGcd": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {max-width: 1100px; margin: 12rem auto; padding: 2rem;}",
+        ".banner__content {max-width: 80%; aspect-ratio: 3 \/ 2;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-14.jpg",
+        "image_2": "shopify:\/\/shop_images\/img-quality-15.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_section_06_WqYKTc": {
+      "type": "image-section-06",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-16.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "textarea": "サンプルテキスト<br>サンプルテキスト"
+      }
+    },
+    "image_banner_QcDXVh": {
+      "type": "image-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-17-01.jpg",
+        "image_2": "shopify:\/\/shop_images\/img-quality-17-02.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_07_kCwXFk": {
+      "type": "image-section-07",
+      "custom_css": [
+        ".banner {max-width: 938px; margin: 12rem auto; padding: 2rem;}",
+        ".banner__content {max-width: 80%; aspect-ratio: 2\/3;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-18.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_9GUGVn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-19.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_section_08_jaJzwm": {
+      "type": "image-section-08",
+      "blocks": {
+        "heading_itQdy6": {
+          "type": "heading",
+          "settings": {
+            "heading": "限定生産 最上級酒",
+            "heading_size": "h2"
+          }
+        },
+        "text_UfEwpd": {
+          "type": "text",
+          "settings": {
+            "textarea": "純米大吟醸 袋吊り<br>\n秋田県横手 大納川 杜氏 佐藤好直",
+            "text_style": "body"
+          }
+        },
+        "buttons_CkdTri": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "商品を見る",
+            "button_link_1": "shopify:\/\/products\/gen-間",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_itQdy6",
+        "text_UfEwpd",
+        "buttons_CkdTri"
+      ],
+      "custom_css": [
+        "p {color: #fff;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-quality-20.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "right",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_j6PxrR",
+    "image_section_01_44KPVb",
+    "image_banner_fa9Xt8",
+    "image_banner_WLtTzB",
+    "image_section_05_iCWrar",
+    "image_banner_Yr4MJj",
+    "image_banner_TdJK8K",
+    "image_banner_fErPGY",
+    "image_section_06_xCbLhL",
+    "image_banner_MjA9Cw",
+    "image_banner_GrKaKf",
+    "image_section_06_kqenyP",
+    "image_banner_ztxGcd",
+    "image_section_06_WqYKTc",
+    "image_banner_QcDXVh",
+    "image_section_07_kCwXFk",
+    "image_banner_9GUGVn",
+    "image_section_08_jaJzwm"
+  ]
+}

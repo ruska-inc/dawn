@@ -15,6 +15,8 @@
 .customer > h1,
 .customer__title {
   margin-top: 0;
+  font-family: "Noto Serif Japanese";
+  font-size: 32px;
 }
 
 .customer form {
@@ -22,6 +24,7 @@
 }
 
 .customer button {
+  width: 240px;
   margin: 4rem 0 1.5rem;
 }
 

@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
+{{ 'custom.css' | asset_url | stylesheet_tag }}
 {%- if settings.predictive_search_enabled -%}
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
@@ -96,8 +97,8 @@
 
   @media screen and (min-width: 990px) {
     .header {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
   }
 {%- endstyle -%}
@@ -256,17 +257,13 @@
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-          {%- if section.settings.enable_customer_avatar -%}
-            <account-icon>
-              {%- if customer and customer.has_avatar? -%}
-                {{ customer | avatar }}
-              {%- else -%}
-                {% render 'icon-account' %}
-              {%- endif -%}
-            </account-icon>
-          {%- else -%}
-            {% render 'icon-account' %}
-          {%- endif -%}
+          <account-icon>
+            {%- if customer and customer.has_avatar? -%}
+              {{ customer | avatar }}
+            {%- else -%}
+              {% render 'icon-account' %}
+            {%- endif -%}
+          </account-icon>
           <span class="visually-hidden">
             {%- liquid
               if customer
@@ -304,6 +301,18 @@
           </div>
         {%- endif -%}
       </a>
+      <a class="icon-instagram header__icon header__icon--cart link focus-inset" href="https://www.instagram.com/gen_sake/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <g clip-path="url(#clip0_203_771)">
+          <path d="M15.5667 1.25H4.43333C2.67523 1.25 1.25 2.67523 1.25 4.43333V15.5667C1.25 17.3248 2.67523 18.75 4.43333 18.75H15.5667C17.3248 18.75 18.75 17.3248 18.75 15.5667V4.43333C18.75 2.67523 17.3248 1.25 15.5667 1.25Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"/>
+          <path d="M9.9999 13.975C12.1952 13.975 13.9749 12.1954 13.9749 10C13.9749 7.80469 12.1952 6.02502 9.9999 6.02502C7.80457 6.02502 6.0249 7.80469 6.0249 10C6.0249 12.1954 7.80457 13.975 9.9999 13.975Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"/>
+          <path d="M15.1668 6.02506C15.8249 6.02506 16.3584 5.49153 16.3584 4.83339C16.3584 4.17525 15.8249 3.64172 15.1668 3.64172C14.5086 3.64172 13.9751 4.17525 13.9751 4.83339C13.9751 5.49153 14.5086 6.02506 15.1668 6.02506Z" fill="white"/>
+        </g>
+        <defs>
+          <clipPath id="clip0_203_771">
+            <rect width="20" height="20" fill="white"/>
+          </clipPath>
+        </defs>
+      </svg></a>
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
@@ -576,7 +585,7 @@
     {
       "type": "checkbox",
       "id": "enable_country_selector",
-      "default": true,
+      "default": false,
       "label": "t:sections.header.settings.enable_country_selector.label"
     },
     {
@@ -587,20 +596,8 @@
     {
       "type": "checkbox",
       "id": "enable_language_selector",
-      "default": true,
+      "default": false,
       "label": "t:sections.header.settings.enable_language_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.header.settings.header__7.content",
-      "info": "t:sections.header.settings.header__7.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_customer_avatar",
-      "default": true,
-      "label": "t:sections.header.settings.enable_customer_avatar.label",
-      "info": "t:sections.header.settings.enable_customer_avatar.info"
     },
     {
       "type": "header",

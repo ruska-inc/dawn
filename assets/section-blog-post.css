@@ -74,7 +74,13 @@
 }
 
 .article-template__link {
-  font-size: 1.8rem;
+  color: #393332;
+  font-family: "Noto Sans JP";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.78px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,0 +1,454 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "video_KQww3X": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h0",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/-b1fa-40b2-b606-64780b819472.mp4",
+        "video_url": "",
+        "cover_image": "shopify:\/\/shop_images\/img-concept-01.jpg",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_section_01_d7LFUg": {
+      "type": "image-section-01",
+      "blocks": {
+        "heading_UUwcKL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Concept",
+            "heading_size": "h1"
+          }
+        },
+        "text_jHAPPD": {
+          "type": "text",
+          "settings": {
+            "text": "目には見えない。 でもそれはたしかに存在している 関係性の間にある目に見えないもの それを知るために、日々を重ねて、年を積んでいく 少しずつ見えてきた先に、うっすらと見えてきた 空間、時間 日本にある自然、日本の文化 それらが生み出すもの それがこの日本酒GENである",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UUwcKL",
+        "text_jHAPPD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-02.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_02_VJBkz8": {
+      "type": "image-section-02",
+      "blocks": {
+        "heading_Rhy6hK": {
+          "type": "heading",
+          "settings": {
+            "heading": "自然の中にある間",
+            "heading_size": "h1"
+          }
+        },
+        "text_tjazdF": {
+          "type": "text",
+          "settings": {
+            "text": "年輪 | annual rings",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rhy6hK",
+        "text_tjazdF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-main-10.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_section_03_TmVQm3": {
+      "type": "image-section-03",
+      "blocks": {
+        "text_ExqqAT": {
+          "type": "text",
+          "settings": {
+            "text": "年輪 | annual rings",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ExqqAT"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-03.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_03_CUFPYN": {
+      "type": "image-section-03",
+      "blocks": {
+        "text_jh4bpN": {
+          "type": "text",
+          "settings": {
+            "text": "星 | Stars",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_jh4bpN"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-04.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_03_iFtyai": {
+      "type": "image-section-03",
+      "blocks": {
+        "text_GgUyJy": {
+          "type": "text",
+          "settings": {
+            "text": "波 | Waves",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_GgUyJy"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-05.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_03_Pe4mCw": {
+      "type": "image-section-03",
+      "blocks": {
+        "text_Ug9cED": {
+          "type": "text",
+          "settings": {
+            "text": "火 | Sparks",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Ug9cED"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-06.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_section_03_ny4fB8": {
+      "type": "image-section-03",
+      "blocks": {
+        "text_HiJmqJ": {
+          "type": "text",
+          "settings": {
+            "text": "山 | Mountains",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_HiJmqJ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-07.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_04_ii8ih6": {
+      "type": "image-section-04",
+      "blocks": {
+        "heading_Mj4FHF": {
+          "type": "heading",
+          "settings": {
+            "heading": "大切な人との特別な時間 特別な空間に",
+            "heading_size": "h1"
+          }
+        },
+        "text_bNiKwx": {
+          "type": "text",
+          "settings": {
+            "text": "In special moments and spaces with loved ones.",
+            "text_style": "body"
+          }
+        },
+        "buttons_4dPpaR": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "商品を見る",
+            "button_link_1": "shopify:\/\/products\/gen-間",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mj4FHF",
+        "text_bNiKwx",
+        "buttons_4dPpaR"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-08.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_03_TwjW9p": {
+      "type": "image-section-03",
+      "blocks": {
+        "text_aXjcLB": {
+          "type": "text",
+          "settings": {
+            "text": "陽 | Sun",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_aXjcLB"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-09.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_03_Lje4wC": {
+      "type": "image-section-03",
+      "blocks": {
+        "text_AbNiRW": {
+          "type": "text",
+          "settings": {
+            "text": "氷 | Ice",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_AbNiRW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-10.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_03_FGC6jg": {
+      "type": "image-section-03",
+      "blocks": {
+        "text_JWCmWG": {
+          "type": "text",
+          "settings": {
+            "text": "霧 | Whiteout",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_JWCmWG"
+      ],
+      "custom_css": [
+        "p{color: #9CC6F0;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-11.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_section_03_m3kTjd": {
+      "type": "image-section-03",
+      "blocks": {
+        "text_QxzGkA": {
+          "type": "text",
+          "settings": {
+            "text": "水 | water",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_QxzGkA"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-concept-12.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_3BKnWX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_a9Wewb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>私たちに在る「間」を考え、知ろうとすること<\/p>"
+          }
+        },
+        "button_NmBJGm": {
+          "type": "button",
+          "settings": {
+            "button_label": "日本酒について",
+            "button_link": "shopify:\/\/pages\/quality",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_a9Wewb",
+        "button_NmBJGm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_KQww3X",
+    "image_section_01_d7LFUg",
+    "image_section_02_VJBkz8",
+    "image_section_03_TmVQm3",
+    "image_section_03_CUFPYN",
+    "image_section_03_iFtyai",
+    "image_section_03_Pe4mCw",
+    "image_section_03_ny4fB8",
+    "image_section_04_ii8ih6",
+    "image_section_03_TwjW9p",
+    "image_section_03_Lje4wC",
+    "image_section_03_FGC6jg",
+    "image_section_03_m3kTjd",
+    "rich_text_3BKnWX"
+  ]
+}

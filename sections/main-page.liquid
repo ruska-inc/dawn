@@ -12,12 +12,34 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .page-header-background {
+    background-image: url({{ section.settings.page_header_background_image | img_url: 'master' }});
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: left;
+    color: white;
+  }
+
+  .page-header-background h1 {
+    display: inline-block;
+    padding: 10px;
+    font-family: Optima;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.48px;
+  }
 {%- endstyle -%}
 
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
-  <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-    {{ page.title | escape }}
-  </h1>
+  <div class="page-header-background">
+    <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      {{ page.title | escape }}
+    </h1>
+  </div>
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {{ page.content }}
   </div>
@@ -52,6 +74,11 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "image_picker",
+      "id": "page_header_background_image",
+      "label": "固定ページの見出し背景画像"
     }
   ]
 }

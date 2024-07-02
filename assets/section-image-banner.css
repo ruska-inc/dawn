@@ -166,6 +166,13 @@
   width: 100%;
 }
 
+@media screen and (max-width: 749px) {
+  .banner__media {
+    height: 528px;
+    position: relative;
+  }
+}
+
 .banner__media-half {
   width: 50%;
 }
@@ -391,7 +398,7 @@
   background: #000000;
   opacity: 0;
   z-index: 1;
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
@@ -435,10 +442,31 @@
 
 .banner__heading {
   margin-bottom: 0;
+  color: #FFF;
+  font-family: "Noto Serif Japanese";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 163.636% */
+  letter-spacing: 2.2px;
 }
 
 .banner__box .banner__heading + * {
-  margin-top: 1rem;
+  max-width: 520px;
+  margin-top: 2.7rem;
+  color: #FFF;
+  font-family: "Noto Serif Japanese";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.42px;
+}
+
+@media screen and (max-width: 749px) {
+  .banner__box .banner__heading + * {
+    margin-top: 0.5rem;
+  }
 }
 
 .banner__buttons {
@@ -472,7 +500,23 @@
 }
 
 .banner__box > * + .banner__buttons {
-  margin-top: 2rem;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 749px) {
+  .banner__heading{
+    font-size: 24px;
+  }
+
+
+  .banner__box > * + .banner__text p{
+    font-size: 12px;
+  }
+
+  .banner__box > * + .banner__buttons{
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
 }
 
 @media screen and (max-width: 749px) {
