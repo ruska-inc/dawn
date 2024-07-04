@@ -209,6 +209,7 @@
 
 .section.custom-section4 .cnt-inr.inr-02 button{
   margin: 0 auto;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,6 +230,17 @@
   letter-spacing: 1.28px;
   text-decoration: none;
   background: initial;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+}
+
+.section.custom-section4 .cnt-inr.inr-02 button:hover{
+  background: #000;
+}
+
+.section.custom-section4 .cnt-inr.inr-02 button a:hover{
+  color: #fff;
 }
 
 /* custom-section05 */
@@ -279,7 +291,18 @@
   line-height: normal;
   letter-spacing: 1.28px;
   text-decoration: none;
+  transition: all 0.5s;
 }
+
+.section.custom-section5 .cnt-inr.inr-02 button:hover{
+  background: #fff;
+}
+
+.section.custom-section5 .cnt-inr.inr-02 button a:hover{
+  color: #000;
+}
+
+
 
 /* custom-section06 */
 .section.custom-section6 .cnt-inr.inr-02{
@@ -324,6 +347,7 @@
   align-items: center;
   border: 1px solid #000;
   border-radius: 40px;
+  transition: all 0.5s;
 }
 
 .section.custom-section6 .cnt-inr.inr-02 button a{
@@ -337,6 +361,15 @@
   line-height: normal;
   letter-spacing: 1.28px;
   text-decoration: none;
+}
+
+.section.custom-section6 .cnt-inr.inr-02 button:hover{
+  background: #ABAAA6;
+  border: 1px solid #ABAAA6;
+}
+
+.section.custom-section6 .cnt-inr.inr-02 button a:hover{
+  color: #fff;
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
@@ -455,6 +488,15 @@
   line-height: normal;
   letter-spacing: 1.28px;
   text-decoration: none;
+  transition: all 0.5s;
+}
+
+.section.custom-section7 .cnt-inr.inr-02 button:hover{
+  background: #fff;
+}
+
+.section.custom-section7 .cnt-inr.inr-02 button a:hover{
+  color: #000;
 }
 
 /* products */
@@ -824,6 +866,15 @@ display: none;
   letter-spacing: 2.24px;
 }
 
+.section-01.banner__content .banner__box .banner__buttons a{
+  transition: all 0.5s;
+}
+
+.section-01.banner__content .banner__box .banner__buttons a:hover{
+  background: #fff;
+  color: #000;
+}
+
 /* image-section-02 */
 .section-02.banner__content{
   flex-direction: column;
@@ -888,6 +939,12 @@ display: none;
   width: 240px;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s;
+}
+
+.section-04 .banner__buttons .button:hover{
+  background: #fff;
+  color: #000;
 }
 
 .section-04 .banner__buttons .button::after{
@@ -897,6 +954,15 @@ display: none;
 
 .rich-text__buttons{
   margin-top: 6rem!important;
+}
+
+.rich-text__buttons a:hover{
+  transition: all 0.5s;
+}
+
+.rich-text__buttons a:hover{
+  background: #000;
+  color: #fff;
 }
 
 .shopify-section.section,
@@ -1101,4 +1167,13 @@ display: none;
 
 .section-08.banner__content .banner__buttons::after{
   color: #fff;
+}
+
+.section-08.banner__content .banner__buttons a{
+  transition: all 0.5s;
+}
+
+.section-08.banner__content .banner__buttons a:hover{
+  background: #fff;
+  color: #000;
 }

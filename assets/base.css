@@ -768,6 +768,13 @@ summary::-webkit-details-marker {
 
 .title--primary {
   margin: 4rem 0;
+  color: #1C1C1C;
+  font-family: "Noto Serif Japanese";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 1.92px;
 }
 
 .title-wrapper--self-padded-tablet-down,
@@ -1621,8 +1628,7 @@ details[open] > .share-button__fallback {
 .customer .field:hover.field:after,
 .customer select:hover.select:after,
 .localization-form__select:hover.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width))
-    rgba(var(--color-foreground), var(--inputs-border-opacity));
+  box-shadow: 0 0 5px 0 rgb(244 244 244);
   outline: 0;
   border-radius: var(--inputs-radius);
 }
@@ -1632,7 +1638,7 @@ details[open] > .share-button__fallback {
 .customer .field input:focus-visible,
 .customer select:focus-visible,
 .localization-form__select:focus-visible.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+  box-shadow: 0 0 5px 0 rgb(244 244 244);
   outline: 0;
   border-radius: var(--inputs-radius);
 }
@@ -1642,7 +1648,7 @@ details[open] > .share-button__fallback {
 .customer .field input:focus,
 .customer select:focus,
 .localization-form__select:focus.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+  box-shadow: 0 0 5px 0 rgb(244 244 244);
   outline: 0;
   border-radius: var(--inputs-radius);
 }

@@ -145,7 +145,6 @@ slider-component.slider-component-full-width {
   .slideshow__text-wrapper.banner__content {
     position: absolute;
     top: 0;
-    left: -6rem;
     bottom: 0;
     background: initial;
   }

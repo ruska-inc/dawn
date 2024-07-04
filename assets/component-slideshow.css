@@ -39,6 +39,14 @@ slideshow-component .slideshow.banner {
   max-width: 54.5rem;
 }
 
+@media screen and (max-width: 749px) {
+  .slideshow__text.banner__box {
+    justify-content: center;
+    max-width: 25rem;
+    margin-right: 12rem;
+  }
+}
+
 .banner--mobile-bottom .slideshow__text .button {
   width: 20rem;
 }
@@ -120,8 +128,8 @@ slideshow-component .slideshow.banner {
 
 @media screen and (max-width: 749px) {
   .slideshow__controls{
-    right: -2rem;
-    margin: 4rem;
+    right: 0;
+    margin: 0;
   }
   .slideshow__controls--border-radius-mobile {
     border-bottom-right-radius: var(--text-boxes-radius);
