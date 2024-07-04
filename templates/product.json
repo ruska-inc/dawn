@@ -71,7 +71,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
@@ -125,6 +125,12 @@
             "text_style": "body"
           }
         },
+        "custom_liquid_CX49NT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0691\/5748\/6819\/files\/img-quality-11.jpg\" alt=\"\" style=\"width: 100%;\">"
+          }
+        },
         "text_wVnUad": {
           "type": "text",
           "settings": {
@@ -147,6 +153,7 @@
         "text_k4EJW6",
         "text_fpjtpx",
         "text_jzAX4f",
+        "custom_liquid_CX49NT",
         "text_wVnUad"
       ],
       "settings": {

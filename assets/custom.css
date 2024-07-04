@@ -1,3 +1,63 @@
+/* froat-button */
+.froat-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 3;
+  background: #fff;
+  padding: 3rem;
+}
+
+.froat-button p{
+  color: #1C1C1C;
+  font-family: "Noto Serif Japanese";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  margin: 0 2rem 0 0;
+}
+
+.froat-button button{
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  transition: all 0.5s;
+  background: #000;
+  border-radius: 40px;
+}
+
+.froat-button button:hover{
+  background: #fff;
+  color: #000;
+}
+
+.froat-button button::after{
+  border-radius: 40px;
+  border: 1px solid #FFF;
+}
+
+.froat-button button a{
+  display: inline-block;
+  width: 180px;
+  padding: 10px 38px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.froat-button button a:hover{
+  color: #000;
+}
+@media screen and (max-width: 749px) {
+  .froat-button{
+    left: 2rem;
+  }
+}
 /* slider */
 .banner__heading{
   color: #FFF;
@@ -19,12 +79,22 @@
   letter-spacing: 1.8px;
 }
 
-.banner__buttons{
+.slideshow__text.banner__box .banner__buttons{
   display: inline-flex;
   max-width: 85rem;
   padding: 0;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s;
+}
+
+.slideshow__text.banner__box .banner__buttons a{
+  transition: all 0.5s;
+}
+
+.slideshow__text.banner__box .banner__buttons a:hover{
+  background: #fff;
+  color: #000;
 }
 
 /* custom-section02 */
@@ -364,8 +434,8 @@
 }
 
 .section.custom-section6 .cnt-inr.inr-02 button:hover{
-  background: #ABAAA6;
-  border: 1px solid #ABAAA6;
+  background: #000;
+  border: 1px solid #000;
 }
 
 .section.custom-section6 .cnt-inr.inr-02 button a:hover{
@@ -464,6 +534,7 @@
 
 .section.custom-section7 .cnt-inr.inr-02 button{
   width: 280px;
+  padding: 0;
   position: absolute;
   bottom: 210px;
   right: 0;

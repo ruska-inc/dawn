@@ -99,6 +99,15 @@
       "settings": {
         "title_text": ""
       }
+    },
+    "custom_liquid_DT4qtL": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"froat-button\"><p>GEN -間-<\/p><button><a href=\"\/products\/gen\">商品を見る<\/a><\/button><\/div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -108,6 +117,7 @@
     "custom_section04_AxzLQM",
     "custom_section05_iWeC9g",
     "custom_section06_UiUt9K",
-    "custom_section07_pj3DEt"
+    "custom_section07_pj3DEt",
+    "custom_liquid_DT4qtL"
   ]
 }
