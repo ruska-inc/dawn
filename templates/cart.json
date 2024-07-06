@@ -8,11 +8,38 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_HJHxMk": {
+      "type": "rich-text",
+      "blocks": {
+        "text_j9aLYn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>これはお酒です。 20歳未満の者の飲酒は法律で禁止されています。<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_j9aLYn"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
         "subtotal": {
           "type": "subtotal",
+          "settings": {
+          }
+        },
+        "amp_delivery_datetime_Lp7KN3": {
+          "type": "shopify:\/\/apps\/amp\/blocks\/delivery-datetime\/96f4dffc-26ce-430c-9359-005a406614b8",
           "settings": {
           }
         },
@@ -24,6 +51,7 @@
       },
       "block_order": [
         "subtotal",
+        "amp_delivery_datetime_Lp7KN3",
         "buttons"
       ],
       "settings": {
@@ -35,6 +63,7 @@
   },
   "order": [
     "cart-items",
+    "rich_text_HJHxMk",
     "cart-footer"
   ]
 }

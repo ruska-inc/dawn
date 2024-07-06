@@ -4,17 +4,17 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  right: 2rem;
+  right: -3rem;
   bottom: 2rem;
   z-index: 3;
-  background: #fff;
+  background: initial;
   padding: 3rem;
 }
 
 .froat-button p{
   color: #1C1C1C;
   font-family: "Noto Serif Japanese";
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -28,36 +28,50 @@
   align-items: center;
   flex-shrink: 0;
   transition: all 0.5s;
-  background: #000;
-  border-radius: 40px;
+  text-align: left;
+  background: #bfad2e;
+  border: 1px solid #bfad2e;
+  border-radius: 0;
 }
 
 .froat-button button:hover{
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #000;
 }
 
 .froat-button button::after{
-  border-radius: 40px;
-  border: 1px solid #FFF;
+  border: 1px solid #000;
 }
 
 .froat-button button a{
   display: inline-block;
   width: 180px;
-  padding: 10px 38px;
+  padding: 12px 38px;
   color: #fff;
+  font-size: 18px;
   text-decoration: none;
+  color: #F9F8F6;
+  font-family: Optima;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.24px;
 }
 
 .froat-button button a:hover{
-  color: #000;
+  color: #fff;
 }
 @media screen and (max-width: 749px) {
   .froat-button{
-    left: 2rem;
+    justify-content: flex-end;
   }
 }
+
+
 /* slider */
 .banner__heading{
   color: #FFF;
@@ -81,7 +95,7 @@
 
 .slideshow__text.banner__box .banner__buttons{
   display: inline-flex;
-  max-width: 85rem;
+  max-width: 22rem;
   padding: 0;
   justify-content: center;
   align-items: center;
@@ -95,6 +109,28 @@
 .slideshow__text.banner__box .banner__buttons a:hover{
   background: #fff;
   color: #000;
+}
+
+.slideshow__text-wrapper .banner__box .banner__heading + *{
+  margin-top: 1.6rem;
+}
+
+.slideshow__text-wrapper .banner__box > * + .banner__buttons{
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 749px) {
+  .slideshow__text-wrapper .banner__box .banner__heading + *{
+    margin-top: 0.6rem;
+  }
+  
+  .slideshow__text-wrapper .banner__box > * + .banner__buttons{
+    margin-top: 2rem;
+  }
+
+  .slideshow__text-wrapper .banner__box > * + .banner__text p{
+    margin-top: 0;
+  }
 }
 
 /* custom-section02 */
@@ -193,7 +229,7 @@
   position: absolute;
   right: 0;
   left: 0;
-  bottom: -157px;
+  bottom: -98px;
 }
 
 .section.custom-section3 .cnt-inr.inr-02{
@@ -286,6 +322,7 @@
   border: 1px solid #000;
   border-radius: 40px;
   background: initial;
+  transition: all 0.5s;
 }
 
 .section.custom-section4 .cnt-inr.inr-02 button a{
@@ -343,11 +380,13 @@
 .section.custom-section5 .cnt-inr.inr-02 button{
   background: initial;
   margin: 0 auto;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid #fff;
   border-radius: 40px;
+  transition: all 0.5s;
 }
 
 .section.custom-section5 .cnt-inr.inr-02 button a{
@@ -536,7 +575,7 @@
   width: 280px;
   padding: 0;
   position: absolute;
-  bottom: 210px;
+  bottom: 180px;
   right: 0;
   left: 0;
   background: initial;
@@ -546,6 +585,7 @@
   align-items: flex-start;
   border: 1px solid #fff;
   border-radius: 40px;
+  transition: all 0.5s;
 }
 
 .section.custom-section7 .cnt-inr.inr-02 button a{
@@ -636,7 +676,7 @@
 
   .section.custom-section3 .cnt-inr.inr-01 img.img-02{
     width: 200px;
-    bottom: -78px;
+    bottom: -48px;
   }
 
   .section.custom-section3 .cnt-inr.inr-02 .products-inr img{
@@ -763,7 +803,7 @@ h2.title.inline-richtext.h2{
 
 .main-blog.page-width .blog-articles-list{
   max-width: 110rem;
-  margin: 8rem auto;
+  margin: 4rem auto 8rem;
 }
 
 .blog-articles-list__item {
@@ -793,7 +833,7 @@ h2.title.inline-richtext.h2{
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.52px;
-  margin-right: 6rem;
+  margin-right: 2.5rem;
 }
 
 .blog-articles-list__item a{
@@ -810,12 +850,88 @@ h2.title.inline-richtext.h2{
 @media screen and (max-width: 749px) {
   .main-blog.page-width .blog-articles-list.blog-articles-list {
     padding: 0 2rem;
-    margin: 4rem auto 6rem;
+    margin: 2rem auto 6rem;
   }
 
   .blog-articles-list__item .blog-articles-list__date{
     min-width: 80px;
-    margin-right: 3rem;
+    margin-right: 1rem;
+  }
+}
+
+
+/* blog-filter */
+.tag-filter-area{
+  max-width: 110rem;
+  margin: 8rem auto 4rem;
+}
+
+.tag-filter-list{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.tag-filter-list li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 0.5px solid #1C1C1C;
+  margin-right: 8px;
+}
+
+.tag-filter-list li a{
+  padding: 3px 10px;
+  color: #1C1C1C;
+  font-family: Optima;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-decoration: none;
+}
+
+.tag-filter-list li.is_selected{
+  background: #1C1C1C;
+}
+
+.tag-filter-list li.is_selected a{
+  color: #fff;
+}
+
+.new-newscategory{
+  color: #1C1C1C;
+  font-family: Optima;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  border-radius: 3px;
+  border: 0.5px solid #1C1C1C;
+  display: flex;
+  width: 60px;
+  padding: 3px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 4rem;
+}
+
+@media screen and (max-width: 749px) {
+  .tag-filter-area{
+    margin: 4rem auto 2rem;
+  }
+  .tag-filter-list{
+    padding: 0 2rem;
+  }
+  .new-newscategory{
+    margin-right: 2rem;
+  }
+  .blog-articles-list{
+    margin: 2rem auto 4rem;
   }
 }
 
@@ -935,6 +1051,7 @@ display: none;
   font-weight: 500;
   line-height: 34px; /* 212.5% */
   letter-spacing: 2.24px;
+  margin-left: 1.5rem;
 }
 
 .section-01.banner__content .banner__box .banner__buttons a{
@@ -1155,6 +1272,7 @@ display: none;
 .section-06.banner__content .center__text p{
   writing-mode: tb;
   color: #fff;
+  line-height: 36px;
 }
 
 @media screen and (min-width: 750px) {
@@ -1247,4 +1365,121 @@ display: none;
 .section-08.banner__content .banner__buttons a:hover{
   background: #fff;
   color: #000;
+}
+
+/* legal-notice */
+
+.shopify-policy__container{
+  margin: 6rem auto 12rem;
+}
+
+.shopify-policy__title h1{
+  color: #1C1C1C;
+  font-family: "Noto Serif Japanese";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 1.92px;
+  margin-bottom: 4rem;
+}
+
+.shopify-policy__body h1{
+  color: #1C1C1C;
+  font-family: "Noto Serif Japanese";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 1.92px;
+  margin-bottom: 2rem;
+}
+
+.shopify-policy__body h2{
+  color: #1C1C1C;
+  font-family: "Noto Serif Japanese";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 1.92px;
+  margin-bottom: 0rem;
+}
+
+.shopify-policy__body p{
+  margin: 1rem auto 3rem;
+  color: #1C1C1C;
+  font-family: "Noto Serif Japanese";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 166.667% */
+  letter-spacing: 1.92px;
+}
+
+.shopify-policy__body table{
+  width: 100%!important;
+  margin: 0 auto;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.shopify-policy__body table tr{
+  border-top: 1px solid #e9e9e9;
+}
+
+.shopify-policy__body table td{
+  padding: 1.5rem 0;
+}
+
+
+@media screen and (max-width: 749px) {
+  .shopify-policy__container{
+    margin: 6rem auto 12rem;
+  }
+  
+  .shopify-policy__title h1{
+    font-size: 24px;
+  }
+
+  .shopify-policy__body h1{
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .shopify-policy__body h2{
+    font-size: 18px;
+    font-style: normal;
+  }
+  
+  .shopify-policy__body p{
+    margin: 1rem auto 3rem;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 166.667% */
+    letter-spacing: 1.92px;
+  }
+}
+
+/* motion */
+.scroll-space {
+  box-sizing: border-box;
+  padding-top: 300px;
+  height: 700px;
+  color: #fff;
+}
+.scroll-space .blue {
+  background: #77bbcf;
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  margin: 0 auto 50px;
+}
+.blur {
+  transition: all 0.5s;
+  filter: blur(10px);
+}
+.blur.scrollin {
+  filter: blur(0);
 }

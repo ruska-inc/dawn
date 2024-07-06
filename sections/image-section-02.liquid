@@ -115,7 +115,7 @@
   {%- endif -%}
   <div class="section-02 banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div class="center__text">
-      <p>自然の中にある間</p>
+      <p class="blur">自然の中にある間</p>
     </div>
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
@@ -131,7 +131,7 @@
             {% endcomment %}
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <p>{{ block.settings.text }}</p>
+              <p class="blur">{{ block.settings.text }}</p>
             </div>
           {%- when 'buttons' -%}
             <div

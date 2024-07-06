@@ -260,7 +260,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "商品を見る",
-            "button_link_1": "shopify:\/\/products\/gen-間",
+            "button_link_1": "shopify:\/\/products\/gen",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -435,6 +435,15 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "custom_liquid_yyGgCf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"froat-button\"><button><a href=\"\/products\/gen\">Order<\/a><\/button><\/div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -452,6 +461,7 @@
     "image_section_03_Lje4wC",
     "image_section_03_FGC6jg",
     "image_section_03_m3kTjd",
-    "rich_text_3BKnWX"
+    "rich_text_3BKnWX",
+    "custom_liquid_yyGgCf"
   ]
 }

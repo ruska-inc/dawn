@@ -44,7 +44,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "商品を見る",
-            "button_link_1": "shopify:\/\/products\/gen-間",
+            "button_link_1": "shopify:\/\/products\/gen",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -201,7 +201,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false,
-        "textarea": "サンプルテキスト<br>サンプルテキスト"
+        "textarea": "五感で菌と対話する<br>\n数値だけでは見えないものがある"
       }
     },
     "image_banner_MjA9Cw": {
@@ -254,7 +254,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false,
-        "textarea": "サンプルテキスト<br>サンプルテキスト"
+        "textarea": "長い時間と共に<br>\nこの空間に宿っている"
       }
     },
     "image_banner_ztxGcd": {
@@ -292,7 +292,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false,
-        "textarea": "サンプルテキスト<br>サンプルテキスト"
+        "textarea": "水と米と菌<br>\n組み合わせで酒は造られる<br><br>\nどう向き合ったか<br><br>\nここでしか生まれない<br>\n味・香りがある"
       }
     },
     "image_banner_QcDXVh": {
@@ -354,17 +354,10 @@
     "image_section_08_jaJzwm": {
       "type": "image-section-08",
       "blocks": {
-        "heading_itQdy6": {
-          "type": "heading",
-          "settings": {
-            "heading": "限定生産 最上級酒",
-            "heading_size": "h2"
-          }
-        },
         "text_UfEwpd": {
           "type": "text",
           "settings": {
-            "textarea": "純米大吟醸 袋吊り<br>\n秋田県横手 大納川 杜氏 佐藤好直",
+            "textarea": "今できること<br>\nすべてを込めて<br><br>\n純米大吟醸 袋吊り<br>\n秋田県横手 大納川 杜氏 佐藤好直",
             "text_style": "body"
           }
         },
@@ -372,7 +365,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "商品を見る",
-            "button_link_1": "shopify:\/\/products\/gen-間",
+            "button_link_1": "shopify:\/\/products\/gen",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -381,7 +374,6 @@
         }
       },
       "block_order": [
-        "heading_itQdy6",
         "text_UfEwpd",
         "buttons_CkdTri"
       ],
@@ -401,6 +393,15 @@
         "mobile_content_alignment": "right",
         "stack_images_on_mobile": true,
         "show_text_below": false
+      }
+    },
+    "custom_liquid_WC9j49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"froat-button\"><button><a href=\"\/products\/gen\">Order<\/a><\/button><\/div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -423,6 +424,7 @@
     "image_banner_QcDXVh",
     "image_section_07_kCwXFk",
     "image_banner_9GUGVn",
-    "image_section_08_jaJzwm"
+    "image_section_08_jaJzwm",
+    "custom_liquid_WC9j49"
   ]
 }

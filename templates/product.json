@@ -1,16 +1,16 @@
 {
   "sections": {
-    "image_banner_GC48dn": {
-      "type": "image-banner",
+    "image_banner_products_x98yfU": {
+      "type": "image-banner-products",
       "blocks": {
-        "heading_bKtqyd": {
+        "heading_BzEdxX": {
           "type": "heading",
           "settings": {
             "heading": "辿り着いた、雫酒の最上級。",
             "heading_size": "h1"
           }
         },
-        "text_dTzaDp": {
+        "text_GrMj4T": {
           "type": "text",
           "settings": {
             "text": "秋田県産米の原材料に拘り抜いた（テロワール化した）純米大吟醸の最上級酒。この純米大吟醸原酒 袋吊り(雫酒) 限定品は、例年以上に手仕込みにこだわり、繊細かつ丁寧に仕込みました。搾りも、特別に袋吊りし無圧で滴り落ちるお酒を斗瓶囲いした超限定酒です。その味わいは気品に溢れ、優しさに満ち、ついつい笑顔になる逸品です。",
@@ -19,8 +19,8 @@
         }
       },
       "block_order": [
-        "heading_bKtqyd",
-        "text_dTzaDp"
+        "heading_BzEdxX",
+        "text_GrMj4T"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img-bg-01.jpg",
@@ -29,7 +29,7 @@
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-4",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -193,7 +193,7 @@
     }
   },
   "order": [
-    "image_banner_GC48dn",
+    "image_banner_products_x98yfU",
     "main",
     "related-products"
   ]

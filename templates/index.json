@@ -31,7 +31,7 @@
             "heading_size": "h1",
             "subheading": "Genuine Story",
             "button_label": "商品を見る",
-            "link": "shopify:\/\/products\/gen-間",
+            "link": "shopify:\/\/products\/gen",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -90,6 +90,7 @@
     },
     "custom_section06_UiUt9K": {
       "type": "custom-section06",
+      "disabled": true,
       "settings": {
         "title_text": ""
       }
@@ -103,7 +104,7 @@
     "custom_liquid_DT4qtL": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"froat-button\"><p>GEN -間-<\/p><button><a href=\"\/products\/gen\">商品を見る<\/a><\/button><\/div>",
+        "custom_liquid": "<div class=\"froat-button\"><button><a href=\"\/products\/gen\">Order<\/a><\/button><\/div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
