@@ -21,13 +21,24 @@
       "block_order": [
         "text_j9aLYn"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "right",
         "content_alignment": "right",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 16
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_Dx4YTd": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<p style=\"max-width: var(--page-width); padding: 0 5rem; margin: 0 auto; text-align: right; font-weight: bold;\">これはお酒です。20歳未満の者の飲酒は法律で禁止されています。<\/p>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "cart-footer": {
@@ -64,6 +75,7 @@
   "order": [
     "cart-items",
     "rich_text_HJHxMk",
+    "custom_liquid_Dx4YTd",
     "cart-footer"
   ]
 }

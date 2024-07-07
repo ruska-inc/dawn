@@ -523,6 +523,9 @@
     "checkout": {
       "contact": {
         "optional_first_name_label": "名"
+      },
+      "order_summary": {
+        "estimated_taxes_label": "消費税"
       }
     }
   }

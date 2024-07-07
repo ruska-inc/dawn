@@ -401,12 +401,12 @@
 .banner::after,
 .banner__media::after {
   content: '';
-  position: absolute;
+  position: relative;
   top: 0;
   background: #000000;
   opacity: 0;
   z-index: 1;
-  width: 90%;
+  /* width: 100%; */
   height: 100%;
 }
 
@@ -525,7 +525,9 @@
   }
 
   .banner__box > * + .banner__buttons{
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    background: initial;
   }
 }
 

@@ -25,16 +25,22 @@
   <div class="page-width">
     <div class="cart__footer isolate section-{{ section.id }}-padding">
       {%- if settings.show_cart_note -%}
-        <cart-note class="cart__note field">
-          <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
-          <textarea
-            class="text-area field__input"
-            name="note"
-            form="cart"
-            id="Cart-note"
-            placeholder="{{ 'sections.cart.note' | t }}"
-          >{{ cart.note }}</textarea>
-        </cart-note>
+        <div class="notice-wrap">
+          <p class="notice">
+            ※コンビニ決済・銀行振込をご選択の場合は、ご入金確認後の発送となるためご指定いただけません。<br>
+            ※これはお酒です。 20歳未満の者の飲酒は法律で禁止されています。
+          </p>
+          <cart-note class="cart__note field">
+            <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
+            <textarea
+              class="text-area field__input"
+              name="note"
+              form="cart"
+              id="Cart-note"
+              placeholder="{{ 'sections.cart.note' | t }}"
+            >{{ cart.note }}</textarea>
+          </cart-note>
+        </div>
       {%- endif -%}
 
       <div class="cart__blocks">

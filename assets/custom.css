@@ -223,13 +223,13 @@
 }
 
 .section.custom-section3 .cnt-inr.inr-01 img.img-02{
-  width: 404px;
+  width: 540px;
   display: block;
   margin: 0 auto;
   position: absolute;
   right: 0;
   left: 0;
-  bottom: -98px;
+  bottom: -132px;
 }
 
 .section.custom-section3 .cnt-inr.inr-02{
@@ -675,8 +675,8 @@
   }
 
   .section.custom-section3 .cnt-inr.inr-01 img.img-02{
-    width: 200px;
-    bottom: -48px;
+    width: 300px;
+    bottom: -73px;
   }
 
   .section.custom-section3 .cnt-inr.inr-02 .products-inr img{
@@ -853,6 +853,14 @@ h2.title.inline-richtext.h2{
     margin: 2rem auto 6rem;
   }
 
+  .blog-articles-list__item{
+    flex-wrap: wrap;
+  }
+
+  .blog-articles-list__item a{
+    margin-top: 1rem;
+  }
+
   .blog-articles-list__item .blog-articles-list__date{
     min-width: 80px;
     margin-right: 1rem;
@@ -861,6 +869,22 @@ h2.title.inline-richtext.h2{
 
 
 /* blog-filter */
+.tagfilter__list {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tagfilter__link {
+  color: #1C1C1C;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.tagfilter__link.is-active {
+  background-color: #1C1C1C;
+  color: #fff;
+}
+
 .tag-filter-area{
   max-width: 110rem;
   margin: 8rem auto 4rem;
@@ -1324,6 +1348,15 @@ display: none;
   writing-mode: tb;
 }
 
+@media screen and (min-width:768px) and ( max-width:1080px) {
+  .header__heading-link{
+    margin-left: 10rem;
+  }
+  .section-07.banner__content .center__text{
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .section-07.banner__content{
     top: 0;
@@ -1365,6 +1398,20 @@ display: none;
 .section-08.banner__content .banner__buttons a:hover{
   background: #fff;
   color: #000;
+}
+
+/* section-09 */
+.section-09 p {
+  writing-mode: tb;
+  position: relative;
+  top: -8rem;
+}
+
+@media screen and (max-width: 749px) {
+  .section-09 p {
+    top: 0rem;
+    margin-left: 4rem;
+  }
 }
 
 /* legal-notice */
@@ -1482,4 +1529,30 @@ display: none;
 }
 .blur.scrollin {
   filter: blur(0);
+}
+
+/* notice */
+.notice-wrap {
+  width: 55rem!important;
+  margin-bottom: 4rem;
+}
+
+.notice-wrap p{
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+
+.notice-wrap .cart__note{
+  width: 35rem;
+}
+
+@media screen and (max-width: 749px) {
+  .notice-wrap {
+    width: 100%!important;
+  }
+  
+  .notice-wrap .cart__note{
+    width: 100%;
+  }
 }

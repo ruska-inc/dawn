@@ -24,26 +24,47 @@
       </h1>
     </div>
 
+    {% comment %}
+      <div class="tag-filter-area">
+        <ul class="tag-filter-list">
+          {% assign current_path = request.path | split: '/' %}
+          {% assign current_tag = current_path | last %}
+          {% assign is_all_class = '' %}
+          {% unless current_tag contains 'tagged' %}
+            {% assign is_all_class = ' is_selected' %}
+          {% endunless %}
+          <li class="tag-filter-list-item{{ is_all_class }}">
+            <a href="/blogs/{{ blog.handle }}">All</a>
+          </li>
+          {% for tag in blog.all_tags %}
+            {% assign is_selected_class = '' %}
+            {% if current_tag == tag %}
+              {% assign is_selected_class = ' is_selected' %}
+            {% endif %}
+            <li class="tag-filter-list-item{{ is_selected_class }}">
+              <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}">{{ tag }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endcomment %}
     <div class="tag-filter-area">
       <ul class="tag-filter-list">
-        {% assign current_path = request.path | split: '/' %}
-        {% assign current_tag = current_path | last %}
-        {% assign is_all_class = '' %}
-        {% unless current_tag contains 'tagged' %}
-          {% assign is_all_class = ' is_selected' %}
-        {% endunless %}
-        <li class="tag-filter-list-item{{ is_all_class }}">
-          <a href="/blogs/{{ blog.handle }}">All</a>
+        <li class="tagfilter__item">
+          <a href="/blogs/{{ blog.handle }}" class="tagfilter__link {% if current_tags == blank %}is-active{% endif %}"
+            >All</a
+          >
         </li>
-        {% for tag in blog.all_tags %}
-          {% assign is_selected_class = '' %}
-          {% if current_tag == tag %}
-            {% assign is_selected_class = ' is_selected' %}
-          {% endif %}
-          <li class="tag-filter-list-item{{ is_selected_class }}">
-            <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}">{{ tag }}</a>
+        {%- for tag in blog.all_tags -%}
+          <li class="tagfilter__item">
+            <a
+              href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}"
+              class="tagfilter__link {% if current_tags contains tag %}is-active{% endif %}"
+            >
+              {{- tag -}}
+            </a>
           </li>
-        {% endfor %}
+        {%- endfor -%}
       </ul>
     </div>
 
