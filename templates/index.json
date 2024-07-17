@@ -1,28 +1,379 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "video_behGXV": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/-fd8f-4ab2-b558-0fbda9f6c6e7.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_6APAni": {
+      "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "heading_zHV3JX": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "飲むたび、美味しく栄養補給。 澄んだ色のクリアプロテイン。",
+            "heading_size": "h2"
           }
         },
-        "text": {
+        "text_VU3nU4": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<p>​爽やかな沖縄フルーツ味にこだわりました。 朝や運動後にスポーツドリンクのように美味しく、栄養を摂取できます。 フレッシュでクリアな飲み心地をお楽しみください。<\/p>",
             "text_style": "body"
           }
         },
-        "button": {
-          "type": "buttons",
+        "button_NUV3Ng": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label": "詳しく見る",
+            "button_link": "shopify:\/\/products\/body-co-クリアホエイプロテイン-沖縄県産パッションフルーツ味-600g-都度-定期",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zHV3JX",
+        "text_VU3nU4",
+        "button_NUV3Ng"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-top-01.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_mRbBjA": {
+      "type": "rich-text",
+      "blocks": {
+        "text_YKKnRV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Body&Co’s PARTICULAR<\/p>"
+          }
+        },
+        "heading_HXJee9": {
+          "type": "heading",
+          "settings": {
+            "heading": "1杯で高栄養。そしてサステナブル。 Body&Coの強いこだわり。",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_YKKnRV",
+        "heading_HXJee9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_NzEiQL": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "img {display: block; max-width: 1100px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "custom_liquid": "<section class=\"section-spec\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-02.png\">\n<\/section>",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_y4jFiN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zgjM7M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img-top-03.jpg",
+            "title": "効率的に運動したいなら",
+            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6Gcinp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img-top-04.jpg",
+            "title": "健康的な体づくりをしたいなら",
+            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pJzD7H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img-top-05.jpg",
+            "title": "毎日元気でいたいなら",
+            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GDEj8d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img-top-06.jpg",
+            "title": "日々の栄養の偏りが気になるなら",
+            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qGEqGz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img-top-07.jpg",
+            "title": "運動不足が気になるなら",
+            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DF6BgD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img-top-08.jpg",
+            "title": "美容を意識するなら",
+            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zgjM7M",
+        "column_6Gcinp",
+        "column_pJzD7H",
+        "column_GDEj8d",
+        "column_qGEqGz",
+        "column_DF6BgD"
+      ],
+      "settings": {
+        "title": "なりたい自分に必要な栄養素が、Body&Coなら全部摂れる",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ラインナップ",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "video_A73Dbt": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/-84fa-40f3-b659-3e6a9e8ab42a.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_product_PAiWGX": {
+      "type": "featured-product",
+      "blocks": {
+        "title_KmJw9g": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price_GgmKmH": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_qir9wa": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_kY8jqq": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_chwYJP": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_dUnDpC": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title_KmJw9g",
+        "price_GgmKmH",
+        "variant_picker_qir9wa",
+        "quantity_selector_kY8jqq",
+        "buy_buttons_chwYJP",
+        "share_dUnDpC"
+      ],
+      "settings": {
+        "product": "body-co-クリアホエイプロテイン-沖縄県産パッションフルーツ味-600g-都度-定期",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "multicolumn_PtWgFL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jrFWdL": {
+          "type": "column",
+          "settings": {
+            "title": "続けておトク、最大20％OFF",
+            "text": "<ul><li>長く続けやすい、ずっとお得な20％OFF<\/li><li>初回注文時にオリジナルシェイカー無料プレゼント（仮）<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zXM8Jc": {
+          "type": "column",
+          "settings": {
+            "title": "配送頻度、味の変更も可能",
+            "text": "<ul><li>配送頻度の変更が可能。自分のペースで続けることが可能です。<\/li><li>毎月味の変更可能。味に飽きることなくBody&Coをご利用いただけます。<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9X9R9c": {
+          "type": "column",
+          "settings": {
+            "title": "気軽に登録、いつでも解約可能",
+            "text": "<ul><li>休止、解約手続きが簡単なので、お気軽にお申し込みいただけます。<\/li><li>お届け日の事前変更可能<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jrFWdL",
+        "column_zXM8Jc",
+        "column_9X9R9c"
+      ],
+      "settings": {
+        "title": "おトクに続けられる、初回20％OFF ＆ 15％割引の定期継続コースもご用意。",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "rich_text_AMzHHU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MFx6XU": {
+          "type": "heading",
+          "settings": {
+            "heading": "定期便でいつもおトクに。初回20％OFFで購入できます。",
+            "heading_size": "h1"
+          }
+        },
+        "text_hJV8y8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>定期便でのお申し込みで、初回20％OFF、2回目以降も15％OFFでの購入が可能です。 さらに、初回注文時にオリジナルシェイカー無料プレゼント！（仮）<\/p>"
+          }
+        },
+        "button_Ktf3CN": {
+          "type": "button",
+          "settings": {
+            "button_label": "定期購買でおトクに購入する",
+            "button_link": "shopify:\/\/products\/body-co-クリアホエイプロテイン-沖縄県産パッションフルーツ味-600g-都度-定期",
+            "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -30,181 +381,293 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "heading_MFx6XU",
+        "text_hJV8y8",
+        "button_Ktf3CN"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 80
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "image_banner_6XfCAA": {
+      "type": "image-banner",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
+        "image": "shopify:\/\/shop_images\/img-top-10.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "collage": {
-      "type": "collage",
+    "rich_text_f7E4w4": {
+      "type": "rich-text",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "heading_fN4CDF": {
+          "type": "heading",
           "settings": {
-            "collection": ""
+            "heading": "「美味しい × 高栄養 × サステナブル」を目指した製品開発。 Body&Coのこだわりと美味しさの秘密",
+            "heading_size": "h2"
           }
         },
-        "product": {
-          "type": "product",
+        "text_iyRhXg": {
+          "type": "text",
           "settings": {
-            "product": "",
-            "second_image": false
+            "text": "<p>Body&Coのプロテインでも使用している沖縄県産パッションフルーツ。<br\/> 沖縄や東南アジアでは有名なフルーツですが、全国的にはまだ認知の少ないフルーツです。<br\/> 甘酸っぱくて美味しいのはもちろん、実はマルチビタミンのように栄養も豊富。<br\/> 『安心して美味しく飲み続けられる』を届けるために、沖縄農家とフルーツを実際にプロテインに配合することにこだわり続けていきます。<\/p>"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "button_qQeK8r": {
+          "type": "button",
           "settings": {
-            "collection": ""
+            "button_label": "開発ストーリー",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "heading_fN4CDF",
+        "text_iyRhXg",
+        "button_qQeK8r"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
         "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 60
       }
     },
-    "multicolumn": {
+    "featured_blog_p4kgKK": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "コラム",
+        "heading_size": "h2",
+        "blog": "column",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-2",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_6Nx7mR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_e6Uqn9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Body&Coは、多くの企業でも採用されています",
+            "heading_size": "h2"
+          }
+        },
+        "text_iB96Xc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Body＆Coはジム・サロン・スポーツ教室・産婦人科・ホテルなど、幅広い業界、そして多くの企業で採用されています。 素早く筋肉を作り、健康的な身体を目指していきたい方に必要なたんぱく質・ビタミン・ミネラルをまとめて摂取できる点や、 低乳糖・低糖質でお腹を壊さないなど、Body＆Coでしか実現できていない点やサステナブル理念も高く評価されています。<\/p>"
+          }
+        },
+        "button_JA9q4j": {
+          "type": "button",
+          "settings": {
+            "button_label": "法人窓口 \/ お問い合わせ",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_e6Uqn9",
+        "text_iB96Xc",
+        "button_JA9q4j"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "newsletter_FxcAQ8": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_EbzWDF": {
+          "type": "heading",
+          "settings": {
+            "heading": "メールマガジン",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_ParKMV": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Body & Coの新着情報や限定商品のお知らせをお届けいたします。<\/p>"
+          }
+        },
+        "email_form_kErRB7": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_EbzWDF",
+        "paragraph_ParKMV",
+        "email_form_kErRB7"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_bPziMM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6tzhfB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Amazon公式ストアでも販売中",
+            "heading_size": "h2"
+          }
+        },
+        "button_GkkaFg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Amazon公式ストア",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6tzhfB",
+        "button_GkkaFg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "image_banner_PmcUDQ": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-top-11.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_KCEFDQ": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
+        "column_TcNG9k": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "お得な定期購入で<strong>20％<\/strong>OFF",
+            "text": "<ul><li>長く続けやすい、いつでも<strong>20%割引<\/strong><\/li><li>配送頻度の指定、スキップ対応<\/li><li>いつでも定期便の休止、再開、解約が可能<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
         },
-        "column2": {
+        "column_yhTxQa": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "まとめ買いで最大<strong>20%<\/strong>OFF",
+            "text": "<ul><li>2つ購入で10％OFF<\/li><li>3つ購入で15％OFF、さらにお得<\/li><li>3つ購入で20%OFF、もっともお得<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
         },
-        "column3": {
+        "column_f4Ppqh": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "お友達紹介で<strong>10%<\/strong>OFF",
+            "text": "<ul><li>紹介者、お友達に10％OFFクーポン<\/li><li>5人紹介ごとに紹介者は20％OFFクーポン<\/li><li>10人以上で新作お試しイベントへのご招待<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "column_TcNG9k",
+        "column_yhTxQa",
+        "column_f4Ppqh"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
+        "column_alignment": "left",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
+    "video_behGXV",
+    "image_with_text_6APAni",
+    "rich_text_mRbBjA",
+    "custom_liquid_NzEiQL",
+    "multicolumn_y4jFiN",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "video_A73Dbt",
+    "featured_product_PAiWGX",
+    "multicolumn_PtWgFL",
+    "rich_text_AMzHHU",
+    "image_banner_6XfCAA",
+    "rich_text_f7E4w4",
+    "featured_blog_p4kgKK",
+    "rich_text_6Nx7mR",
+    "newsletter_FxcAQ8",
+    "rich_text_bPziMM",
+    "image_banner_PmcUDQ",
+    "multicolumn_KCEFDQ"
   ]
 }

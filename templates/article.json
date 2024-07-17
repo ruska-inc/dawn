@@ -22,16 +22,26 @@
             "share_label": "Share"
           }
         },
+        "table_of_contents_theme_extension_LRrmh8": {
+          "type": "shopify:\/\/apps\/table-of-contents\/blocks\/theme-extension\/d06f5754-affb-4dc7-a2a9-18d74d225f70",
+          "settings": {
+          }
+        },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
         "share",
+        "table_of_contents_theme_extension_LRrmh8",
         "content"
-      ]
+      ],
+      "settings": {
+      }
     }
   },
   "order": [

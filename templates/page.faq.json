@@ -1,0 +1,128 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_ACqQ7z": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_MLjPDb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1袋でどのくらい持ちますか？",
+            "icon": "none",
+            "row_content": "<p>1袋で約20回分となっております。<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jYCKin": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "支払い方法を教えてください。",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_xpz3Pc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "返品・交換はできますか？",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_MLjPDb",
+        "collapsible_row_jYCKin",
+        "collapsible_row_xpz3Pc"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "購入について",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_3yPG9y": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_aVzJNf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "発送からどのくらいで届きますか？",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_HdHbjM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "配送日時は指定できますか？",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Rr8FPp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "配送料はいくらですか？",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_EUFbKH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "領収書の発行はできますか？",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_aVzJNf",
+        "collapsible_row_HdHbjM",
+        "collapsible_row_Rr8FPp",
+        "collapsible_row_EUFbKH"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "配送について",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_ACqQ7z",
+    "collapsible_content_3yPG9y"
+  ]
+}

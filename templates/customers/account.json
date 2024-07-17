@@ -1,10 +1,44 @@
 {
   "sections": {
     "main": {
-      "type": "main-account"
+      "type": "main-account",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1718177469267285fe": {
+      "type": "apps",
+      "blocks": {
+        "shopify_apps_blocks_subscription_mypage_67cce3d8_a1e5_43f3_8d2d_0c320d8c46e7_yKxqfM": {
+          "type": "shopify:\/\/apps\/\/blocks\/subscription-mypage\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
+          "settings": {
+            "mypageLinkText": "定期購買一覧",
+            "enabledMypageLink": true,
+            "accountLinkText": "アカウントに戻る",
+            "enabledAccountLink": true,
+            "linkFontSize": 14,
+            "linkColor": "#000",
+            "linkBackground": "transparent",
+            "linkBorder": 0,
+            "linkBorderColor": "#000",
+            "enabledLinkUnderLine": false,
+            "linkMarginTop": 0,
+            "linkMarginBottom": 0,
+            "marginTop": 84
+          }
+        }
+      },
+      "block_order": [
+        "shopify_apps_blocks_subscription_mypage_67cce3d8_a1e5_43f3_8d2d_0c320d8c46e7_yKxqfM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1718177469267285fe"
   ]
 }
