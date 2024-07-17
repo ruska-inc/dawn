@@ -129,7 +129,7 @@
           "settings": {
             "heading": "配送料はいくらですか？",
             "icon": "none",
-            "row_content": "<p>全国一律1本1,000円となります。<\/p>",
+            "row_content": "<p>全国一律1,000円となります。<\/p>",
             "page": ""
           }
         },

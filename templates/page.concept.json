@@ -8,13 +8,13 @@
         "padding_bottom": 28
       }
     },
-    "video_KQww3X": {
+    "video_XbzhjR": {
       "type": "video",
       "settings": {
         "heading": "",
-        "heading_size": "h0",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/-b1fa-40b2-b606-64780b819472.mp4",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/GEN concept 4.mp4",
         "video_url": "",
         "cover_image": "shopify:\/\/shop_images\/img-concept-01.jpg",
         "description": "",
@@ -50,7 +50,7 @@
         "@media screen and (max-width: 749px) {.banner__box {position: absolute; bottom: 0; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/img-concept-02.jpg",
+        "image": "shopify:\/\/shop_images\/img-concept-02_2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
@@ -76,7 +76,7 @@
         "text_tjazdF": {
           "type": "text",
           "settings": {
-            "text": "年輪 | annual rings",
+            "text": "波紋 | ripples",
             "text_style": "body"
           }
         }
@@ -274,7 +274,7 @@
         "buttons_4dPpaR"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/img-concept-08.jpg",
+        "image": "shopify:\/\/shop_images\/img-bg-01.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
@@ -448,7 +448,7 @@
   },
   "order": [
     "main",
-    "video_KQww3X",
+    "video_XbzhjR",
     "image_section_01_d7LFUg",
     "image_section_02_VJBkz8",
     "image_section_03_TmVQm3",

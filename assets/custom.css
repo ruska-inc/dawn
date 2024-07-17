@@ -9,6 +9,8 @@
   z-index: 3;
   background: initial;
   padding: 3rem;
+  opacity: 0;
+  transition: all 1s;
 }
 
 .froat-button p{
@@ -93,6 +95,16 @@
   letter-spacing: 1.8px;
 }
 
+.slideshow__text .banner__text.rte p {
+  color: #FFF;
+  font-family: "Noto Serif Japanese";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.42px;
+}
+
 .slideshow__text.banner__box .banner__buttons{
   display: inline-flex;
   max-width: 22rem;
@@ -125,7 +137,7 @@
   }
   
   .slideshow__text-wrapper .banner__box > * + .banner__buttons{
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .slideshow__text-wrapper .banner__box > * + .banner__text p{
@@ -1524,11 +1536,12 @@ display: none;
   margin: 0 auto 50px;
 }
 .blur {
-  transition: all 0.5s;
-  filter: blur(10px);
+  transform: translate3d(0, 0, 0);
+  transition: 2s;
+  opacity: 0;
 }
-.blur.scrollin {
-  filter: blur(0);
+.blur.animated {
+  opacity: 1;
 }
 
 /* notice */
@@ -1555,4 +1568,59 @@ display: none;
   .notice-wrap .cart__note{
     width: 100%;
   }
+}
+
+.price.price--show-badge{
+  display: flex!important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.tax-text{
+  margin-left: 1rem;
+  margin-bottom: 0.15rem;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 749px) {
+  .tax-text{
+    margin-bottom: 0.35rem;
+  }
+}
+
+/* table */
+.product__info-container .detail-table{
+  width: 100%;
+  padding: 15px 0;
+  border-top: 1px solid #E9E9E9;
+  text-align: left;
+  vertical-align: top;
+  margin: 0;
+}
+
+.detail-table.last{
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.detail-table th{
+  width: 100px;
+  color: #393332;
+  font-family: "Noto Sans JP";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  vertical-align: top;
+}
+
+.detail-table td{
+  color: #393332;
+  font-family: "Noto Sans JP";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
 }

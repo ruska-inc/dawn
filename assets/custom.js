@@ -1,11 +1,22 @@
-$(window).scroll(function () {
-  $('.blur').each(function () {
-    var elemPos = $(this).offset().top,
-      scroll = $(window).scrollTop(),
-      windowHeight = $(window).height();
+$(window).on('load scroll', function () {
+  var box = $('.blur');
+  var animated = 'animated';
 
-    if (scroll > elemPos - windowHeight + 150) {
-      $(this).addClass('scrollin');
+  box.each(function () {
+    var boxOffset = $(this).offset().top;
+    var scrollPos = $(window).scrollTop();
+    var wh = $(window).height();
+
+    if (scrollPos > boxOffset - wh + 200) {
+      $(this).addClass(animated);
     }
+  });
+});
+
+//float-btn
+window.addEventListener('scroll', function () {
+  var fadeInElements = document.querySelectorAll('.froat-button');
+  fadeInElements.forEach(function (element) {
+    element.style.opacity = 1;
   });
 });

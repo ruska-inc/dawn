@@ -6,7 +6,7 @@
         "slide_zteTK4": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img-bg-02.png",
+            "image": "shopify:\/\/shop_images\/img-bg-02.jpg",
             "image_sp": "shopify:\/\/shop_images\/img-bg-02-sp.jpg",
             "heading": "",
             "heading_size": "h1",
@@ -27,18 +27,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/img-bg-01.jpg",
             "image_sp": "shopify:\/\/shop_images\/img-bg-01-sp.jpg",
-            "heading": "GEN -間-",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Genuine Story",
+            "subheading": "空間、時間<br>\n日本にある自然、日本の文化 それらが生み出すもの<br>\nそれがこの日本酒GENである",
             "button_label": "商品を見る",
             "link": "shopify:\/\/products\/gen",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-4",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "left"
           }
         }
       },
@@ -103,6 +103,9 @@
     },
     "custom_liquid_DT4qtL": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".hidden {opacity: 0; pointer-events: none;}"
+      ],
       "settings": {
         "custom_liquid": "<div class=\"froat-button\"><button><a href=\"\/products\/gen\">Order<\/a><\/button><\/div>",
         "color_scheme": "",

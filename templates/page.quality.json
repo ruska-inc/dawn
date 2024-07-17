@@ -8,14 +8,15 @@
         "padding_bottom": 28
       }
     },
-    "video_j6PxrR": {
+    "video_niwR3G": {
       "type": "video",
       "settings": {
         "heading": "",
-        "heading_size": "h2",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/-b6e8-41b0-b542-378f94a8d928.mp4",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Quality 6.mp4",
         "video_url": "",
+        "cover_image": "shopify:\/\/shop_images\/img-quality-01.jpg",
         "description": "",
         "full_width": true,
         "color_scheme": "",
@@ -76,18 +77,6 @@
     },
     "image_section_09_wJyWyc": {
       "type": "image-section-09",
-      "blocks": {
-        "text_6Pm9f3": {
-          "type": "text",
-          "settings": {
-            "textarea": "はじめかた<br>\n何かを成す上で大切なこと",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_6Pm9f3"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img-quality-02.jpg",
         "image_2": "shopify:\/\/shop_images\/img-quality-03.jpg",
@@ -233,7 +222,7 @@
       "type": "image-banner",
       "custom_css": [
         ".banner {max-width: 1100px; margin: 12rem auto; padding: 2rem;}",
-        ".banner__content {max-width: 80%; aspect-ratio: 3 \/ 2;}"
+        ".banner__content {max-width: 80%;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img-quality-12.jpg",
@@ -416,7 +405,7 @@
   },
   "order": [
     "main",
-    "video_j6PxrR",
+    "video_niwR3G",
     "image_section_01_44KPVb",
     "image_section_09_wJyWyc",
     "image_banner_WLtTzB",

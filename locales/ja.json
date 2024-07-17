@@ -272,7 +272,7 @@
       }
     },
     "cart": {
-      "title": "あなたのカート",
+      "title": "カート",
       "caption": "カートアイテム",
       "remove_title": "{{ title }}を削除する",
       "note": "注文に関する特別な指示・備考",
@@ -293,7 +293,7 @@
       },
       "update": "アップデート",
       "login": {
-        "title": "アカウントをお持ちですか?",
+        "title": "アカウントをお持ちの方はこちら",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">ログイン<\/a>することで、チェックアウトがスピーディーに行えます。"
       },
       "estimated_total": "合計",

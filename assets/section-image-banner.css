@@ -526,7 +526,7 @@
 
   .banner__box > * + .banner__buttons{
     margin-top: 3rem;
-    margin-left: 2rem;
+    margin-left: 0;
     background: initial;
   }
 }

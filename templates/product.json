@@ -6,14 +6,14 @@
         "heading_BzEdxX": {
           "type": "heading",
           "settings": {
-            "heading": "辿り着いた、雫酒の最上級。",
-            "heading_size": "h1"
+            "heading": "ここにしかない、限定最上級酒。",
+            "heading_size": "h2"
           }
         },
         "text_GrMj4T": {
           "type": "text",
           "settings": {
-            "text": "秋田県産米の原材料に拘り抜いた（テロワール化した）純米大吟醸の最上級酒。この純米大吟醸原酒 袋吊り(雫酒) 限定品は、例年以上に手仕込みにこだわり、繊細かつ丁寧に仕込みました。搾りも、特別に袋吊りし無圧で滴り落ちるお酒を斗瓶囲いした超限定酒です。その味わいは気品に溢れ、優しさに満ち、ついつい笑顔になる逸品です。",
+            "text": "細部まで手仕込みにこだわり、繊細かつ丁寧に仕込みました。搾りも、特別に袋吊りし無圧で滴り落ちるお酒を斗瓶囲いした無濾過原酒 超限定醸造です。GENの世界観と共に、ここにしかない限定最上級酒をお愉しみください。",
             "text_style": "body"
           }
         }
@@ -68,34 +68,18 @@
           "settings": {
           }
         },
+        "text_LFgMix": {
+          "type": "text",
+          "settings": {
+            "text": "数量限定の為、一度のご注文で3本までとさせていただきます。",
+            "text_style": "body"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
-          }
-        },
-        "collapsible_tab_b4AaPX": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "詳細情報",
-            "icon": "none",
-            "content": "",
-            "page": "商品詳細-アコーディオン"
-          }
-        },
-        "collapsible_tab_EJmk8Y": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "製造者・販売者",
-            "icon": "none",
-            "content": "",
-            "page": "製造者-販売者-アコーディオン"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
           }
         },
         "share": {
@@ -104,29 +88,41 @@
             "share_label": "Share"
           }
         },
+        "custom_liquid_EwhaFC": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<table class=\"detail-table last\">\n    <tr>\n        <th>品名<\/th>\n        <td>日本酒<\/td>\n    <\/tr>\n    <tr>\n        <th>原材料<\/th>\n        <td>秋田酒こまち100％<\/td>\n    <\/tr>\n<tr>\n        <th>精米歩合<\/th>\n        <td>35％<\/td>\n    <\/tr>\n    <tr>\n        <th>アルコール分<\/th>\n        <td>16度<\/td>\n    <\/tr>\n <tr>\n        <th>火入れ<\/th>\n        <td>1回<\/td>\n    <\/tr>\n    <tr>\n        <th>内容量<\/th>\n        <td>720ml<\/td>\n    <\/tr>\n        <tr>\n        <th>保存方法<\/th>\n        <td>要冷蔵<\/td>\n    <\/tr>\n<tr>\n        <th>販売本数<\/th>\n        <td>数量限定<\/td>\n    <\/tr>\n<\/table>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "text_k4EJW6": {
           "type": "text",
           "settings": {
-            "text": "おすすめの飲み方",
+            "text": "<strong>醸造パートナー [ 大納川 ]<\/strong>",
             "text_style": "body"
           }
         },
         "text_fpjtpx": {
           "type": "text",
           "settings": {
-            "text": "推奨の飲用温度はよく冷えた5〜10℃で、エレガントな味わいが際立ちます。冷蔵庫・セラーから出してすぐにお飲みください。ペアリングには、シーフード、野菜、ホワイトミートなどの、味の強すぎない料理をおすすめします。また、フルーツとも好相性です。お酒の繊細な魅力を引き出してくれます。上質を追求した非常にエレガントなお酒です。ぜひ、特別な日の一杯としてお楽しみください。",
+            "text": "大納川は、日本を代表する杜氏集団のひとつ「山内杜氏」発祥の地である秋田県横手市で大正6年に創業。日本酒の伝統技術にこだわり、手作業を大切にしながら、日本酒の無限の可能性を追求しています。大納川の情熱とクラフトマンシップ精神は、令和5年度全国新酒鑑評会で金賞を受賞。伝統文化の革新と発展を目指す互いの想いが共鳴し合い、3年の歳月を経て両者にしかできない素晴らしいブランドが完成しました。社会的価値の創出とグローバルな文化交流へ貢献することを目指しています。",
             "text_style": "body"
           }
         },
         "text_jzAX4f": {
           "type": "text",
           "settings": {
-            "text": "大切な方への贈り物に",
+            "text": "<strong>大切な方への贈り物に<\/strong>",
             "text_style": "body"
           }
         },
         "custom_liquid_CX49NT": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0691\/5748\/6819\/files\/img-quality-11.jpg\" alt=\"\" style=\"width: 100%;\">"
           }
@@ -134,7 +130,7 @@
         "text_wVnUad": {
           "type": "text",
           "settings": {
-            "text": "GENは、大切な方への贈り物としても最適。特別なパッケージでGENをご堪能いただけます。",
+            "text": "GENは贈り物としてもご利用いただけるよう、日本酒のみならず贈り主様への想いを込めて1本１本手作業で箱に詰めてご用意しております。特別なパッケージでGENをご堪能いただけます。",
             "text_style": "body"
           }
         }
@@ -145,11 +141,11 @@
         "text_PaPH7p",
         "variant_picker",
         "quantity_selector",
+        "text_LFgMix",
         "buy_buttons",
-        "collapsible_tab_b4AaPX",
-        "collapsible_tab_EJmk8Y",
-        "description",
         "share",
+        "custom_liquid_EwhaFC",
+        "description",
         "text_k4EJW6",
         "text_fpjtpx",
         "text_jzAX4f",

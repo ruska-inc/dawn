@@ -1104,6 +1104,7 @@ summary::-webkit-details-marker {
   left: 0;
   height: 100%;
   width: 100%;
+  object-position: center;
 }
 
 .media > img {
@@ -1816,7 +1817,7 @@ input[type='checkbox'] {
   display: flex;
   font-size: 1.4rem;
   line-height: 1;
-  margin-top: 1rem;
+  margin: 1rem 2rem 2rem;
 }
 
 .form__message--large {
@@ -2335,11 +2336,11 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: rgb(var(--color-background));
+  background-color: #030303;
 }
 
 .header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 0;
 }
 
 .header {
