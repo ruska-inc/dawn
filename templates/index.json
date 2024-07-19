@@ -62,34 +62,34 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_mRbBjA": {
-      "type": "rich-text",
+    "rich_text_custom01_zfyAPU": {
+      "type": "rich-text-custom01",
       "blocks": {
-        "text_YKKnRV": {
+        "text_Gbkehj": {
           "type": "text",
           "settings": {
             "text": "<p>Body&Co’s PARTICULAR<\/p>"
           }
         },
-        "heading_HXJee9": {
+        "heading_6dphht": {
           "type": "heading",
           "settings": {
-            "heading": "1杯で高栄養。そしてサステナブル。 Body&Coの強いこだわり。",
+            "heading": "<p>1杯で高栄養。そしてサステナブル。 Body&Coの強いこだわり。<\/p>",
             "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "text_YKKnRV",
-        "heading_HXJee9"
+        "text_Gbkehj",
+        "heading_6dphht"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
     "custom_liquid_NzEiQL": {
@@ -100,24 +100,24 @@
       "settings": {
         "custom_liquid": "<section class=\"section-spec\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-02.png\">\n<\/section>",
         "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 80
       }
     },
-    "multicolumn_y4jFiN": {
-      "type": "multicolumn",
+    "multicolumn_custom01_ejpn9r": {
+      "type": "multicolumn-custom01",
       "blocks": {
-        "column_zgjM7M": {
+        "column_LEhYc4": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-03.jpg",
             "title": "効率的に運動したいなら",
-            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "text": "<p>たんぱく質<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_6Gcinp": {
+        "column_VwFMmd": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-04.jpg",
@@ -127,7 +127,7 @@
             "link": ""
           }
         },
-        "column_pJzD7H": {
+        "column_wtX8U8": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-05.jpg",
@@ -137,7 +137,7 @@
             "link": ""
           }
         },
-        "column_GDEj8d": {
+        "column_gf3zLi": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-06.jpg",
@@ -147,7 +147,7 @@
             "link": ""
           }
         },
-        "column_qGEqGz": {
+        "column_WaBjwF": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-07.jpg",
@@ -157,7 +157,7 @@
             "link": ""
           }
         },
-        "column_DF6BgD": {
+        "column_MRHddV": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-08.jpg",
@@ -169,12 +169,12 @@
         }
       },
       "block_order": [
-        "column_zgjM7M",
-        "column_6Gcinp",
-        "column_pJzD7H",
-        "column_GDEj8d",
-        "column_qGEqGz",
-        "column_DF6BgD"
+        "column_LEhYc4",
+        "column_VwFMmd",
+        "column_wtX8U8",
+        "column_gf3zLi",
+        "column_WaBjwF",
+        "column_MRHddV"
       ],
       "settings": {
         "title": "なりたい自分に必要な栄養素が、Body&Coなら全部摂れる",
@@ -186,7 +186,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 80,
@@ -198,9 +198,9 @@
       "settings": {
         "title": "ラインナップ",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>LINEUP<\/p>",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "subtitle",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
@@ -653,9 +653,9 @@
   "order": [
     "video_behGXV",
     "image_with_text_6APAni",
-    "rich_text_mRbBjA",
+    "rich_text_custom01_zfyAPU",
     "custom_liquid_NzEiQL",
-    "multicolumn_y4jFiN",
+    "multicolumn_custom01_ejpn9r",
     "featured_collection",
     "video_A73Dbt",
     "featured_product_PAiWGX",

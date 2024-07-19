@@ -56,7 +56,6 @@
 /* top */
 .rich-text__heading{
   color: #1C1C1C;
-  text-align: center;
   font-family: "Higure Gothic";
   font-size: 28px;
   font-style: normal;
@@ -66,18 +65,13 @@
   margin-top: 0.5rem;
 }
 
-/* .rich-text__text p{
-  font-family: Overpass;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 1.2px;
-  background: linear-gradient(90deg, #00B4E6 0%, #00BED4 13.16%, #00D0B4 39.79%, #00D7A9 54.64%, #10D7A8 59.52%, #3DD7A5 69.39%, #84D7A1 83.18%, #E5D79C 100.16%, #FFD79B 104.4%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
+.rich-text__blocks .rich-text__text{
+  margin-top: 4rem;
+}
+
+.rich-text__buttons{
+  margin-top: 3.5rem!important;
+}
 
 .image-with-text__heading{
   color: #1C1C1C;
@@ -117,4 +111,171 @@
 
 .image-with-text__media{
   border: initial;
+}
+
+.multicolumn-card{
+  background: #fff!important;
+}
+
+.multicolumn-card .multicolumn-card-spacing{
+  padding-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.title-wrapper-with-link{
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.multicolumn-list{
+  gap: 6rem;
+}
+
+.inline-richtext{
+  font-family: "Higure Gothic";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 171.429% */
+  letter-spacing: 0.84px;
+}
+
+.multicolumn-card__info{
+  background: #fff;
+  padding: 2.5rem 0!important;
+}
+
+.grid--3-col-desktop .grid__item{
+  width: calc(33.33% - 6rem * 2 / 3);
+  max-width: calc(33.33% - 6rem * 2 / 3);
+}
+
+.multicolumn-card__info .inline-richtext{
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  text-align: center;
+}
+
+.product__info-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+
+.product__title{
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 163.636% */
+  letter-spacing: 2.2px;
+}
+
+.price__container span{
+  color: #1C1C1C;
+  font-family: Overpass;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+.product .product__info-wrapper .price__container{
+  width: 100%;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #d9d9d9!important;
+}
+
+
+/* news letter */
+.newsletter__wrapper .newsletter__subheading{
+  margin-top: 3.5rem;
+}
+.newsletter__wrapper .newsletter__subheading + div{
+  margin-top: 4rem;
+}
+.newsletter-form__field-wrapper .field__input{
+  background: #fff;
+}
+
+
+/* footer */
+.footer{
+  padding-top: 8rem!important;
+}
+.footer-block{
+  flex-basis: 5%;
+}
+.footer-block:first-child{
+  flex-basis: 30%;
+}
+
+.footer-block__brand-info .footer-block__heading p{
+  color: #FFF;
+  font-family: Overpass;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.footer-block .footer-block__heading{
+  color: #FFF;
+  font-family: Overpass;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  margin-bottom: 1rem;
+}
+
+.footer-block .footer-block__heading + div.rte{
+  color: #FFF;
+  font-family: "Noto Sans JP";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.12px;
+}
+
+.footer-block__details-content li a{
+  color: #FFF;
+  font-family: "Noto Sans JP";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+
+.footer__content-bottom .footer__content-bottom-wrapper{
+  justify-content: left;
+  display: flex;
+}
+
+.copyright__content{
+  color: #FFF;
+  font-family: Overpass;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+
+.footer__content-bottom .footer__copyright{
+  margin-top: 0;
 }
