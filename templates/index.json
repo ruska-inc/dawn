@@ -1,18 +1,45 @@
 {
   "sections": {
-    "video_behGXV": {
-      "type": "video",
+    "main_visual_8dizk9": {
+      "type": "main-visual",
+      "blocks": {
+        "heading_gxP8ti": {
+          "type": "heading",
+          "settings": {
+            "heading": "ブランドについて説明する",
+            "heading_size": "h1"
+          }
+        },
+        "text_AwMTtG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ブランドに関する情報をお客様と共有します。商品を説明したり、告知をしたり、ストアへのお客様を歓迎したりします。<\/p>"
+          }
+        },
+        "button_7g4VEL": {
+          "type": "button",
+          "settings": {
+            "button_label": "ボタンのラベル",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gxP8ti",
+        "text_AwMTtG",
+        "button_7g4VEL"
+      ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/-fd8f-4ab2-b558-0fbda9f6c6e7.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": true,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image_with_text_6APAni": {
@@ -74,7 +101,7 @@
         "heading_6dphht": {
           "type": "heading",
           "settings": {
-            "heading": "<p>1杯で高栄養。そしてサステナブル。 Body&Coの強いこだわり。<\/p>",
+            "heading": "<p>1杯で高栄養。そしてサステナブル。 <br\/>Body&Coの強いこだわり。<\/p>",
             "heading_size": "h1"
           }
         }
@@ -112,7 +139,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-03.jpg",
             "title": "効率的に運動したいなら",
-            "text": "<p>たんぱく質<\/p>",
+            "text_1": "たんぱく質",
+            "text_2": "ビタミンB1",
+            "text_3": "ビタミンB2",
+            "text_4": "ビタミンB6",
+            "text_5": "ビタミンB12",
+            "text_6": "マグネシウム",
+            "text_7": "カリウム",
+            "text_8": "亜鉛",
+            "text_9": "鉄",
+            "text_10": "カルシウム",
             "link_label": "",
             "link": ""
           }
@@ -122,7 +158,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-04.jpg",
             "title": "健康的な体づくりをしたいなら",
-            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "text_1": "たんぱく質",
+            "text_2": "カルシウム",
+            "text_3": "ビタミンD",
+            "text_4": "マグネシウム",
+            "text_5": "葉酸",
+            "text_6": "亜鉛",
+            "text_7": "カリウム",
+            "text_8": "",
+            "text_9": "",
+            "text_10": "",
             "link_label": "",
             "link": ""
           }
@@ -132,7 +177,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-05.jpg",
             "title": "毎日元気でいたいなら",
-            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "text_1": "ビタミンC",
+            "text_2": "ビタミンD",
+            "text_3": "鉄",
+            "text_4": "銅",
+            "text_5": "ナイアシン",
+            "text_6": "パントテン酸",
+            "text_7": "マグネシウム",
+            "text_8": "カリウム",
+            "text_9": "",
+            "text_10": "",
             "link_label": "",
             "link": ""
           }
@@ -142,7 +196,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-06.jpg",
             "title": "日々の栄養の偏りが気になるなら",
-            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "text_1": "ビタミンA",
+            "text_2": "ビタミンC",
+            "text_3": "ビタミンE",
+            "text_4": "銅",
+            "text_5": "カルシウム",
+            "text_6": "鉄",
+            "text_7": "亜鉛",
+            "text_8": "カリウム",
+            "text_9": "",
+            "text_10": "",
             "link_label": "",
             "link": ""
           }
@@ -152,7 +215,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-07.jpg",
             "title": "運動不足が気になるなら",
-            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "text_1": "ビタミンD",
+            "text_2": "ビタミンB1",
+            "text_3": "ビタミンB2",
+            "text_4": "ビタミンB6",
+            "text_5": "ビタミンB12",
+            "text_6": "マグネシウム",
+            "text_7": "カリウム",
+            "text_8": "亜鉛",
+            "text_9": "鉄",
+            "text_10": "カルシウム",
             "link_label": "",
             "link": ""
           }
@@ -162,7 +234,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/img-top-08.jpg",
             "title": "美容を意識するなら",
-            "text": "<p>選択した商品、コレクション、ブログ記事に注目を集めるため、テキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+            "text_1": "ビタミンC",
+            "text_2": "ビタミンE",
+            "text_3": "ビタミンA",
+            "text_4": "亜鉛",
+            "text_5": "鉄",
+            "text_6": "セレン",
+            "text_7": "銅",
+            "text_8": "マグネシウム",
+            "text_9": "",
+            "text_10": "",
             "link_label": "",
             "link": ""
           }
@@ -178,6 +259,7 @@
       ],
       "settings": {
         "title": "なりたい自分に必要な栄養素が、Body&Coなら全部摂れる",
+        "subtitle": "YOUR LIFESTYLE",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -191,6 +273,47 @@
         "swipe_on_mobile": false,
         "padding_top": 80,
         "padding_bottom": 80
+      }
+    },
+    "tab_custom01_KNCLPX": {
+      "type": "tab-custom01",
+      "blocks": {
+        "tab_DmdnY6": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "高たんぱく質と豊富な栄養",
+            "tab_content": "<div class=\"image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet\">\n        <div class=\"image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item\">\n          <div class=\"image-with-text__media image-with-text__media--adapt global-media-settings background-transparent media\" style=\"padding-bottom: 99.917149958575%;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-09.png\" alt=\"\">\n<\/div>\n        <\/div>\n        <div class=\"image-with-text__text-item grid__item\">\n          <div id=\"ImageWithText--template--18118080037121__image_with_text_6APAni\" class=\"image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent\"><h2 class=\"image-with-text__heading inline-richtext h2\">1杯で22gの高タンパク質、<br>豊富なビタミンとミネラルを同時に補給<\/h2><div class=\"image-with-text__text rte body\">\n                    <p>​『Body&Co クリアホエイプロテイン』は、「英国の技術」x「沖縄の機能性素材」を掛け合わせた、お腹に優しく、ホエイタンパク、ビタミン、ミネラルを効率よく摂取できるハイパワーなフードテック商品です。1杯で22gのタンパク質が摂取でき、11種のビタミン、74種類のサンゴミネラル、BCAAを5,000mg配合しています。<\/p>\n                  <\/div><\/div>\n        <\/div>\n      <\/div>"
+          }
+        },
+        "tab_q8tr67": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "こだわり抜いた飲みやすさ",
+            "tab_content": "<div class=\"image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet\">\n        <div class=\"image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item\">\n          <div class=\"image-with-text__media image-with-text__media--adapt global-media-settings background-transparent media\" style=\"padding-bottom: 99.917149958575%;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-09.png\" alt=\"\">\n<\/div>\n        <\/div>\n        <div class=\"image-with-text__text-item grid__item\">\n          <div id=\"ImageWithText--template--18118080037121__image_with_text_6APAni\" class=\"image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent\"><h2 class=\"image-with-text__heading inline-richtext h2\">1杯で22gの高タンパク質、<br>豊富なビタミンとミネラルを同時に補給<\/h2><div class=\"image-with-text__text rte body\">\n                    <p>​『Body&Co クリアホエイプロテイン』は、「英国の技術」x「沖縄の機能性素材」を掛け合わせた、お腹に優しく、ホエイタンパク、ビタミン、ミネラルを効率よく摂取できるハイパワーなフードテック商品です。1杯で22gのタンパク質が摂取でき、11種のビタミン、74種類のサンゴミネラル、BCAAを5,000mg配合しています。<\/p>\n                  <\/div><\/div>\n        <\/div>\n      <\/div>"
+          }
+        },
+        "tab_8QJbb4": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "お腹に優しいプロテイン",
+            "tab_content": "<div class=\"image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet\">\n        <div class=\"image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item\">\n          <div class=\"image-with-text__media image-with-text__media--adapt global-media-settings background-transparent media\" style=\"padding-bottom: 99.917149958575%;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-09.png\" alt=\"\">\n<\/div>\n        <\/div>\n        <div class=\"image-with-text__text-item grid__item\">\n          <div id=\"ImageWithText--template--18118080037121__image_with_text_6APAni\" class=\"image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent\"><h2 class=\"image-with-text__heading inline-richtext h2\">1杯で22gの高タンパク質、<br>豊富なビタミンとミネラルを同時に補給<\/h2><div class=\"image-with-text__text rte body\">\n                    <p>​『Body&Co クリアホエイプロテイン』は、「英国の技術」x「沖縄の機能性素材」を掛け合わせた、お腹に優しく、ホエイタンパク、ビタミン、ミネラルを効率よく摂取できるハイパワーなフードテック商品です。1杯で22gのタンパク質が摂取でき、11種のビタミン、74種類のサンゴミネラル、BCAAを5,000mg配合しています。<\/p>\n                  <\/div><\/div>\n        <\/div>\n      <\/div>"
+          }
+        },
+        "tab_fHRVnN": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "沖縄フルーツをまるごと使用",
+            "tab_content": "<div class=\"image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet\">\n        <div class=\"image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item\">\n          <div class=\"image-with-text__media image-with-text__media--adapt global-media-settings background-transparent media\" style=\"padding-bottom: 99.917149958575%;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-09.png\" alt=\"\">\n<\/div>\n        <\/div>\n        <div class=\"image-with-text__text-item grid__item\">\n          <div id=\"ImageWithText--template--18118080037121__image_with_text_6APAni\" class=\"image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent\"><h2 class=\"image-with-text__heading inline-richtext h2\">1杯で22gの高タンパク質、<br>豊富なビタミンとミネラルを同時に補給<\/h2><div class=\"image-with-text__text rte body\">\n                    <p>​『Body&Co クリアホエイプロテイン』は、「英国の技術」x「沖縄の機能性素材」を掛け合わせた、お腹に優しく、ホエイタンパク、ビタミン、ミネラルを効率よく摂取できるハイパワーなフードテック商品です。1杯で22gのタンパク質が摂取でき、11種のビタミン、74種類のサンゴミネラル、BCAAを5,000mg配合しています。<\/p>\n                  <\/div><\/div>\n        <\/div>\n      <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_DmdnY6",
+        "tab_q8tr67",
+        "tab_8QJbb4",
+        "tab_fHRVnN"
+      ],
+      "settings": {
       }
     },
     "featured_collection": {
@@ -250,6 +373,13 @@
           "settings": {
           }
         },
+        "text_Lyg4w8": {
+          "type": "text",
+          "settings": {
+            "text": "Body&Coのパッションフルーツ味は、沖縄の提携農家で採れたパッションフルーツをまるごと使用した、スッキリとした味のプロテインです。沖縄情熱農園で無農薬と自家製有機肥料にこだわって栽培された濃厚な果実は、春の大人気果実となっています。甘酸っぱい完熟パッションフルーツを使用することで、起床後や運動前後にも飲みやすい味に仕上げました。",
+            "text_style": "body"
+          }
+        },
         "variant_picker_qir9wa": {
           "type": "variant_picker",
           "settings": {
@@ -279,6 +409,7 @@
       "block_order": [
         "title_KmJw9g",
         "price_GgmKmH",
+        "text_Lyg4w8",
         "variant_picker_qir9wa",
         "quantity_selector_kY8jqq",
         "buy_buttons_chwYJP",
@@ -299,10 +430,10 @@
         "padding_bottom": 80
       }
     },
-    "multicolumn_PtWgFL": {
-      "type": "multicolumn",
+    "multicolumn_custom02_b64fpg": {
+      "type": "multicolumn-custom02",
       "blocks": {
-        "column_jrFWdL": {
+        "column_Q8yGqm": {
           "type": "column",
           "settings": {
             "title": "続けておトク、最大20％OFF",
@@ -311,7 +442,7 @@
             "link": ""
           }
         },
-        "column_zXM8Jc": {
+        "column_8UtP4g": {
           "type": "column",
           "settings": {
             "title": "配送頻度、味の変更も可能",
@@ -320,7 +451,7 @@
             "link": ""
           }
         },
-        "column_9X9R9c": {
+        "column_68naqt": {
           "type": "column",
           "settings": {
             "title": "気軽に登録、いつでも解約可能",
@@ -331,44 +462,45 @@
         }
       },
       "block_order": [
-        "column_jrFWdL",
-        "column_zXM8Jc",
-        "column_9X9R9c"
+        "column_Q8yGqm",
+        "column_8UtP4g",
+        "column_68naqt"
       ],
       "settings": {
-        "title": "おトクに続けられる、初回20％OFF ＆ 15％割引の定期継続コースもご用意。",
-        "heading_size": "h2",
+        "subtitle": "SUBSCRIPTION",
+        "title": "<p>おトクに続けられる、初回20％OFF ＆ 15％割引の定期継続コースもご用意。<\/p>",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
-        "button_link": "",
+        "button_link": "shopify:\/\/products\/body-co-クリアホエイプロテイン-沖縄県産パッションフルーツ味-600g-都度-定期",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
-    "rich_text_AMzHHU": {
-      "type": "rich-text",
+    "rich_text_custom02_Tx4tLh": {
+      "type": "rich-text-custom02",
       "blocks": {
-        "heading_MFx6XU": {
+        "heading_GcHH3h": {
           "type": "heading",
           "settings": {
             "heading": "定期便でいつもおトクに。初回20％OFFで購入できます。",
             "heading_size": "h1"
           }
         },
-        "text_hJV8y8": {
+        "text_qcNdWc": {
           "type": "text",
           "settings": {
             "text": "<p>定期便でのお申し込みで、初回20％OFF、2回目以降も15％OFFでの購入が可能です。 さらに、初回注文時にオリジナルシェイカー無料プレゼント！（仮）<\/p>"
           }
         },
-        "button_Ktf3CN": {
+        "button_bWfcAp": {
           "type": "button",
           "settings": {
             "button_label": "定期購買でおトクに購入する",
@@ -381,9 +513,9 @@
         }
       },
       "block_order": [
-        "heading_MFx6XU",
-        "text_hJV8y8",
-        "button_Ktf3CN"
+        "heading_GcHH3h",
+        "text_qcNdWc",
+        "button_bWfcAp"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -410,23 +542,22 @@
         "show_text_below": true
       }
     },
-    "rich_text_f7E4w4": {
-      "type": "rich-text",
+    "rich_text_custom05_LKAMJU": {
+      "type": "rich-text-custom05",
       "blocks": {
-        "heading_fN4CDF": {
+        "heading_EXqwJW": {
           "type": "heading",
           "settings": {
-            "heading": "「美味しい × 高栄養 × サステナブル」を目指した製品開発。 Body&Coのこだわりと美味しさの秘密",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "text_iyRhXg": {
+        "text_8BXmdD": {
           "type": "text",
           "settings": {
             "text": "<p>Body&Coのプロテインでも使用している沖縄県産パッションフルーツ。<br\/> 沖縄や東南アジアでは有名なフルーツですが、全国的にはまだ認知の少ないフルーツです。<br\/> 甘酸っぱくて美味しいのはもちろん、実はマルチビタミンのように栄養も豊富。<br\/> 『安心して美味しく飲み続けられる』を届けるために、沖縄農家とフルーツを実際にプロテインに配合することにこだわり続けていきます。<\/p>"
           }
         },
-        "button_qQeK8r": {
+        "button_MhAwnN": {
           "type": "button",
           "settings": {
             "button_label": "開発ストーリー",
@@ -439,27 +570,51 @@
         }
       },
       "block_order": [
-        "heading_fN4CDF",
-        "text_iyRhXg",
-        "button_qQeK8r"
+        "heading_EXqwJW",
+        "text_8BXmdD",
+        "button_MhAwnN"
       ],
       "settings": {
+        "title": "<p>「美味しい × 高栄養 × サステナブル」を目指した製品開発。<br\/>Body&Coのこだわりと美味しさの秘密<\/p>",
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": false,
         "padding_top": 40,
-        "padding_bottom": 60
+        "padding_bottom": 80
+      }
+    },
+    "countdown_custom_zJBkbK": {
+      "type": "countdown-custom",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "OKINAWA ACEROLA PROTAIN",
+        "title": "あたらしい味のBody&Co、予約販売開始。",
+        "content": "<p>Body&Coにあたらしい味、沖縄アセロラ味が7\/4から発売決定。<br\/> 6\/1より予約販売を開始しますので、早めのご予約をお待ちしております。<\/p>",
+        "button_link": "shopify:\/\/products\/body-co-クリアホエイプロテイン-沖縄県産パッションフルーツ味-600g-都度-定期",
+        "button_text": "予約販売ページ",
+        "expiration_date": "2024\/9\/1",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "featured_blog_p4kgKK": {
       "type": "featured-blog",
       "settings": {
         "heading": "コラム",
+        "subtitle": "COLUMN",
         "heading_size": "h2",
         "blog": "column",
-        "post_limit": 4,
-        "columns_desktop": 4,
+        "post_limit": 5,
+        "columns_desktop": 5,
         "color_scheme": "scheme-2",
         "show_image": true,
         "show_date": true,
@@ -469,23 +624,23 @@
         "padding_bottom": 80
       }
     },
-    "rich_text_6Nx7mR": {
-      "type": "rich-text",
+    "rich_text_custom03_FbFJaW": {
+      "type": "rich-text-custom03",
       "blocks": {
-        "heading_e6Uqn9": {
+        "heading_jPB9j7": {
           "type": "heading",
           "settings": {
             "heading": "Body&Coは、多くの企業でも採用されています",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "text_iB96Xc": {
+        "text_hChm4a": {
           "type": "text",
           "settings": {
             "text": "<p>Body＆Coはジム・サロン・スポーツ教室・産婦人科・ホテルなど、幅広い業界、そして多くの企業で採用されています。 素早く筋肉を作り、健康的な身体を目指していきたい方に必要なたんぱく質・ビタミン・ミネラルをまとめて摂取できる点や、 低乳糖・低糖質でお腹を壊さないなど、Body＆Coでしか実現できていない点やサステナブル理念も高く評価されています。<\/p>"
           }
         },
-        "button_JA9q4j": {
+        "button_xw7PTi": {
           "type": "button",
           "settings": {
             "button_label": "法人窓口 \/ お問い合わせ",
@@ -498,17 +653,83 @@
         }
       },
       "block_order": [
-        "heading_e6Uqn9",
-        "text_iB96Xc",
-        "button_JA9q4j"
+        "heading_jPB9j7",
+        "text_hChm4a",
+        "button_xw7PTi"
       ],
       "settings": {
+        "subtitle": "CORPORATE",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "logo_1": "shopify:\/\/shop_images\/img-topcase-01.png",
+        "logo_2": "shopify:\/\/shop_images\/img-topcase-02.png",
+        "logo_3": "shopify:\/\/shop_images\/img-topcase-03.png",
+        "logo_4": "shopify:\/\/shop_images\/img-topcase-04.png",
+        "logo_5": "shopify:\/\/shop_images\/img-topcase-05.png",
+        "logo_6": "shopify:\/\/shop_images\/img-topcase-06.png",
+        "logo_7": "shopify:\/\/shop_images\/img-topcase-07.png"
+      }
+    },
+    "17215748037048d59c": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_qdNn8L": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "@bodyandco_official",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_qdNn8L"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_case_custom_DMz6ec": {
+      "type": "featured-case-custom",
+      "settings": {
+        "subtitle": "Body&Co PARTNER",
+        "heading": "Body&Co 導入事例",
+        "categorytitle": "法人・団体の方",
+        "heading_size": "h1",
+        "blog": "case",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-2",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "featured_case_custom_APaYWy": {
+      "type": "featured-case-custom",
+      "settings": {
+        "subtitle": "",
+        "heading": "",
+        "categorytitle": "個人・アスリートの方",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-2",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 8,
+        "padding_bottom": 36
       }
     },
     "newsletter_FxcAQ8": {
@@ -539,27 +760,28 @@
         "email_form_kErRB7"
       ],
       "settings": {
+        "subtitle": "Body&Co MAIL MAGAZINE",
         "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 80,
         "padding_bottom": 80
       }
     },
-    "rich_text_bPziMM": {
-      "type": "rich-text",
+    "rich_text_custom04_fF7Wnm": {
+      "type": "rich-text-custom04",
       "blocks": {
-        "heading_6tzhfB": {
+        "heading_rby3kc": {
           "type": "heading",
           "settings": {
             "heading": "Amazon公式ストアでも販売中",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "button_GkkaFg": {
+        "button_znHUUC": {
           "type": "button",
           "settings": {
             "button_label": "Amazon公式ストア",
-            "button_link": "#",
+            "button_link": "https:\/\/www.amazon.co.jp\/dp\/B0CVTN6Z8S?ref=myi_title_dp&th=1",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -568,10 +790,11 @@
         }
       },
       "block_order": [
-        "heading_6tzhfB",
-        "button_GkkaFg"
+        "heading_rby3kc",
+        "button_znHUUC"
       ],
       "settings": {
+        "subtitle": "Amazon",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -596,10 +819,10 @@
         "show_text_below": true
       }
     },
-    "multicolumn_KCEFDQ": {
-      "type": "multicolumn",
+    "multicolumn_custom03_Pk9DCP": {
+      "type": "multicolumn-custom03",
       "blocks": {
-        "column_TcNG9k": {
+        "column_nigf3N": {
           "type": "column",
           "settings": {
             "title": "お得な定期購入で<strong>20％<\/strong>OFF",
@@ -608,7 +831,7 @@
             "link": ""
           }
         },
-        "column_yhTxQa": {
+        "column_38BVGT": {
           "type": "column",
           "settings": {
             "title": "まとめ買いで最大<strong>20%<\/strong>OFF",
@@ -617,7 +840,7 @@
             "link": ""
           }
         },
-        "column_f4Ppqh": {
+        "column_H3LzJ7": {
           "type": "column",
           "settings": {
             "title": "お友達紹介で<strong>10%<\/strong>OFF",
@@ -628,9 +851,9 @@
         }
       },
       "block_order": [
-        "column_TcNG9k",
-        "column_yhTxQa",
-        "column_f4Ppqh"
+        "column_nigf3N",
+        "column_38BVGT",
+        "column_H3LzJ7"
       ],
       "settings": {
         "title": "",
@@ -645,29 +868,34 @@
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
-    "video_behGXV",
+    "main_visual_8dizk9",
     "image_with_text_6APAni",
     "rich_text_custom01_zfyAPU",
     "custom_liquid_NzEiQL",
     "multicolumn_custom01_ejpn9r",
+    "tab_custom01_KNCLPX",
     "featured_collection",
     "video_A73Dbt",
     "featured_product_PAiWGX",
-    "multicolumn_PtWgFL",
-    "rich_text_AMzHHU",
+    "multicolumn_custom02_b64fpg",
+    "rich_text_custom02_Tx4tLh",
     "image_banner_6XfCAA",
-    "rich_text_f7E4w4",
+    "rich_text_custom05_LKAMJU",
+    "countdown_custom_zJBkbK",
     "featured_blog_p4kgKK",
-    "rich_text_6Nx7mR",
+    "rich_text_custom03_FbFJaW",
+    "17215748037048d59c",
+    "featured_case_custom_DMz6ec",
+    "featured_case_custom_APaYWy",
     "newsletter_FxcAQ8",
-    "rich_text_bPziMM",
+    "rich_text_custom04_fF7Wnm",
     "image_banner_PmcUDQ",
-    "multicolumn_KCEFDQ"
+    "multicolumn_custom03_Pk9DCP"
   ]
 }

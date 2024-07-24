@@ -17,6 +17,7 @@
 
 <div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
   <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    <p class="subtitle">{{ section.settings.subtitle }}</p>
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
@@ -123,6 +124,12 @@
     "groups": ["header"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "サブタイトル",
+      "default": "Body&Co MAIL MAGAZINE"
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",

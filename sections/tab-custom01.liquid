@@ -1,0 +1,94 @@
+<!-- sections/custom-tabs.liquid -->
+{% stylesheet %}
+  <style>
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    .tabs {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+    .tabs li {
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    .tabs li.active {
+      font-weight: bold;
+    }
+  </style>
+{% endstylesheet %}
+
+<div class="custom-tabs">
+  <div class="tabs-inr">
+    <div class="tabs-wrap">
+      <ul class="tabs">
+        {% for tab in section.blocks %}
+          <li class="tab {% if forloop.first %}active{% endif %}" data-tab="{{ tab.id }}">
+            {{ tab.settings.tab_title }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% for tab in section.blocks %}
+      <div class="tab-content {% if forloop.first %}active{% endif %}" id="tab-{{ tab.id }}">
+        {{ tab.settings.tab_content }}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const tabs = document.querySelectorAll('.tabs li');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        // Remove active class from all tabs and contents
+        tabs.forEach((item) => item.classList.remove('active'));
+        contents.forEach((content) => content.classList.remove('active'));
+
+        // Add active class to the clicked tab and corresponding content
+        tab.classList.add('active');
+        document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "タブ（カスタム）",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab Title"
+        },
+        {
+          "type": "liquid",
+          "id": "tab_content",
+          "label": "Tab Content",
+          "default": "<p>Content for this tab</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "タブ（カスタム）",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

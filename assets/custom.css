@@ -53,7 +53,212 @@
   font-family: 'HigureGothic-Regular', sans-serif;
 }
 
-/* top */
+@media screen and (max-width: 749px) {
+  .image-with-text__heading{
+    font-size: 2.4rem!important;
+    line-height: 1.5!important;
+  }
+
+  .image-with-text__content{
+    padding: 2rem 2rem!important;
+  }
+}
+
+/* main visual */
+.mainvisual-wrap{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inr-cnt {
+  max-width: 1100px;
+  margin: 0 auto 10rem;
+  text-align: center;
+}
+
+.inr-cnt h2{
+  margin: 0 auto 1.5rem;
+  color: #FFF;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.20);
+  font-family: "Higure Gothic";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 155.556% */
+  letter-spacing: 3.6px;
+}
+
+.inr-cnt p{
+  color: #FFF;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+  font-family: "Higure Gothic";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 1.44px;
+}
+
+.bottom-inr {
+  position: absolute;
+  z-index: 1;
+  bottom: 0rem;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5rem;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.infobox{
+  display: flex;
+  width: 480px;
+  padding: 16px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  background: #fff;
+  border-radius: 2px;
+  border: 4px solid #00B4E6;
+}
+
+.infobox p{
+  margin: 0;
+  color: #00B4E6;
+  font-family: Overpass;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.68px;
+}
+
+.infobox ul{
+  margin: 0;
+  padding-left: 0;
+}
+
+.infobox ul li{
+  list-style: none;
+}
+
+.infobox ul li a{
+  text-decoration: none;
+  display: flex;
+}
+
+.infobox ul li .date{
+  margin-right: 3rem;
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+
+.infobox ul li .title{
+  margin: 0;
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 183.333% */
+  letter-spacing: 0.96px;
+}
+
+.img-bnr{
+  width: 373px;
+}
+
+.img-bnr img{
+  width: 100%;
+}
+
+#video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;/*最背面に設定*/
+  top: 0;
+  right:0;
+  left:0;
+  bottom:0;
+  overflow: hidden;
+}
+
+#sineCanvas{
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .inr-cnt h2{
+    font-size: 2.6rem;
+    line-height: 1.5;
+  }
+
+  .inr-cnt p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .bottom-inr{
+    padding: 0 2rem;
+    flex-direction: column;
+  }
+
+  .infobox{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .img-bnr{
+    width: 100%;
+  }
+}
+
+/* section-spec */
+
+@media screen and (max-width: 749px) {
+  .rich-text__wrapper{
+    padding: 0;
+  }
+  .rich-text__heading p{
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+  
+  .section-spec img{
+    max-width: 100%!important;
+    padding: 1.5rem;
+  }
+}
+
+/* rich text */
+.rich-text.custom-01 .rich-text__text p{
+  font-family: Overpass;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  background: linear-gradient(90deg, #00B4E6 0%, #00BED4 13.16%, #00D0B4 39.79%, #00D7A9 54.64%, #10D7A8 59.52%, #3DD7A5 69.39%, #84D7A1 83.18%, #E5D79C 100.16%, #FFD79B 104.4%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .rich-text__heading{
   color: #1C1C1C;
   font-family: "Higure Gothic";
@@ -113,6 +318,48 @@
   border: initial;
 }
 
+/* multicolumn */
+
+.title-wrapper-with-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle{
+  margin: 0 auto;
+  font-family: Overpass;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  background: var(--grad, linear-gradient(90deg, #00B4E6 0%, #00BED4 12.4%, #00D0B4 37.5%, #00D7A9 51.5%, #10D7A8 56.1%, #3DD7A5 65.4%, #84D7A1 78.4%, #E5D79C 94.4%, #FFD79B 98.4%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tag-wrap {
+  margin-top: 2rem !important;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tag{
+  padding: 8px 12px;
+  border-radius: 30px;
+  border: 1px solid #D9D9D9;
+  color: #333;
+  font-family: "Noto Sans JP";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
 .multicolumn-card{
   background: #fff!important;
 }
@@ -144,7 +391,7 @@
 
 .multicolumn-card__info{
   background: #fff;
-  padding: 2.5rem 0!important;
+  padding: 2rem 0!important;
 }
 
 .grid--3-col-desktop .grid__item{
@@ -163,11 +410,175 @@
   text-align: center;
 }
 
+@media screen and (max-width: 749px) {
+  .subtitle{
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .multicolumn .title{
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+
+  .multicolumn-list{
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .grid--3-col-desktop .grid__item{
+    width: 100%;
+    max-width: initial;
+  }
+}
+
+/* tab */
+.custom-tabs{
+  padding: 8rem 0;
+  background: #f9f9f9;
+}
+.tab-content{
+  display: none;
+}
+
+.tabs-inr{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.tabs-inr .tabs{
+  position: relative;
+  margin: 0 auto 5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #D9D9D9;
+  display: flex;
+  gap: 4rem;
+}
+
+.tabs-inr .tabs li{
+  margin: 0;
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.92px;
+}
+
+.tabs-inr .tabs li.active{
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.92px;
+}
+
+.tabs-inr .tabs li.active::after{
+  display: block;
+  content: "";
+  position: relative;
+  bottom: -1.6rem;
+  width: 100%;
+  height: 4px;
+  transition: background .3s;
+  background: linear-gradient(90deg, #00B4E6 0%, #00BED4 12.4%, #00D0B4 37.5%, #00D7A9 51.5%, #10D7A8 56.1%, #3DD7A5 65.4%, #84D7A1 78.4%, #E5D79C 94.4%, #FFD79B 98.4%);
+}
+@media screen and (max-width: 749px) {
+  .custom-tabs{
+    padding: 4rem 0;
+  }
+
+  .tabs-wrap{
+    width: 100%;
+    margin: 0 auto 3rem;
+    padding: 0 2rem;
+    overflow-x: scroll;
+  }
+
+  .tabs-inr .tabs{
+    width: 300%;
+    margin: 0 auto;
+  }
+
+  .tab-content{
+    padding: 0 2rem;
+  }
+
+  .image-with-text__content{
+    padding: 2rem 0!important;
+  }
+}
+/* collection product */
+.collection__title{
+  text-align: center;
+}
+
+.collection__description p{
+  font-family: Overpass;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  background: var(--grad, linear-gradient(90deg, #00B4E6 0%, #00BED4 12.4%, #00D0B4 37.5%, #00D7A9 51.5%, #10D7A8 56.1%, #3DD7A5 65.4%, #84D7A1 78.4%, #E5D79C 94.4%, #FFD79B 98.4%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.full-unstyled-link{
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 156.25% */
+  letter-spacing: 0.8px;
+}
+
+.card-information{
+  margin-top: 1.5rem;
+}
+
+.card-information span{
+  color: #1C1C1C;
+  font-family: Overpass;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+
+
+/* movie */
+.deferred-media__poster-button{
+  background-color: initial!important;
+  border: 0.1rem solid #fff!important;
+}
+
+.deferred-media__poster-button{
+  color: #fff!important;
+}
+
+/* feauture product */
+
+.featured-product{
+  background: initial;
+}
+
+section.gradient{
+  background: url(https://cdn.shopify.com/s/files/1/0699/1570/5601/files/img-bg-01.svg) no-repeat;
+}
+
 .product__info-wrapper{
   display: flex;
   align-items: center;
 }
-
 
 .product__title{
   color: #1C1C1C;
@@ -196,6 +607,334 @@
   border-bottom: 1px solid #d9d9d9!important;
 }
 
+.product__info-container .product__text{
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 1.68px;
+}
+
+
+/* multicolumn 02 */
+
+.multicolumn.custom-02 .title-wrapper-with-link .title.inline-richtext p{
+  margin: 0 auto 2rem;
+}
+
+.multicolumn.custom-02 .multicolumn-list{
+  gap: 1rem;
+}
+
+.multicolumn.custom-02 .grid--3-col-desktop .grid__item {
+  width: calc(33.33% - 1rem* 2 / 3);
+  max-width: calc(33.33% - 1rem* 2 / 3);
+}
+
+.multicolumn.custom-02 .multicolumn-card__info{
+  padding: 8rem 2rem 2rem 2rem!important;
+  position: relative;
+}
+
+.multicolumn.custom-02 .multicolumn-card__info::before{
+  content: "POINT";
+  position: absolute;
+  text-align: center;
+  top: 2rem;
+  right: 0;
+  left: 0;
+  color: #00B4E6;
+  font-family: Overpass;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.66px;
+}
+
+.multicolumn.custom-02 .multicolumn-card__info::after{
+  content: "01";
+  position: absolute;
+  text-align: center;
+  top: 3rem;
+  right: 0;
+  left: 0;
+  color: #00B4E6;
+  font-family: Overpass;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.92px;
+}
+
+.multicolumn.custom-02 .multicolumn-list__item:nth-child(2) .multicolumn-card__info::after{
+  content: "02";
+}
+
+.multicolumn.custom-02 .multicolumn-list__item:nth-child(3) .multicolumn-card__info::after{
+  content: "03";
+}
+
+.multicolumn.custom-02 .multicolumn-card__info h3{
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+.multicolumn.custom-02 .multicolumn-card__info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.multicolumn.custom-02 .multicolumn-card__info ul li{
+  padding-left: 3rem;
+  margin-bottom: 0.5rem;
+  background: url(https://cdn.shopify.com/s/files/1/0699/1570/5601/files/img-icon-01.svg) no-repeat;
+  background-position: 0 6px;
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 0.75px;
+}
+
+/* richtext custom02 */
+.rich-text.custom02 .rich-text__wrapper{
+  max-width: 1100px;
+  padding: 4rem;
+  background: #fff;
+  border-radius: 3px;
+  border: 4px solid #3FD8A6;
+  background: #FFF;
+}
+
+.rich-text.custom02 .rich-text__wrapper .button.button--primary{
+  position: relative;
+  min-width: 420px;
+  min-height: 54px;
+  margin-top: 4rem;
+  border: initial;
+  background: linear-gradient(90deg, #00B4E6 0%, #00BED4 12.7%, #00D0B4 38.39%, #00D7A9 52.73%, #10D7A8 57.44%, #3DD7A5 66.96%, #84D7A1 80.27%, #E5D79C 96.65%, #FFD79B 100.74%);
+}
+
+.rich-text.custom02 .rich-text__wrapper .button.button--primary::before{
+  display: block;
+  position: absolute;
+  top: -5rem;
+  right: 0;
+  left: 0;
+  content: '';
+  width: 237px;
+  height: 34.71px;
+  margin: 0 auto;
+  background: url(https://cdn.shopify.com/s/files/1/0699/1570/5601/files/img-top-13.svg) no-repeat;
+}
+
+.rich-text.custom02 .rich-text__wrapper .button.button--primary::after{
+  box-shadow: initial;
+}
+
+@media screen and (max-width: 749px) {
+  .rich-text.custom02 .rich-text__wrapper .button.button--primary{
+    position: relative;
+    min-width: 280px;
+    min-height: 54px;
+  }
+}
+
+/* countdown */
+.container.container--md{
+  padding: 14rem 0;
+  background: url(https://cdn.shopify.com/s/files/1/0699/1570/5601/files/img-bg-03.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.countdown{
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.countdown .countdown__content{
+  text-align: left;
+}
+
+.countdown .countdown__content .h6{
+  color: #FFF;
+  font-family: Overpass;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.24px;
+}
+
+.countdown .countdown__content .h1{
+  color: #FFF;
+  font-family: "Higure Gothic";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 1.96px;
+}
+
+.countdown .countdown__content > p{
+  margin: 4rem 0;
+  color: #FFF;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 2.24px;
+}
+
+.countdown .countdown__content > a{
+  display: inline-flex;
+  padding: 16px 66.006px 16px 67px;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-decoration: none;
+}
+
+.countdown__timer {
+  margin-left: 5rem;
+  padding: 1.6rem 2.4rem;
+  height: 150px;
+  border-radius: 3px;
+  background: rgba(28, 28, 28, 0.50);
+}
+
+.countdown__timer-item-separator{
+  color: #fff;
+}
+
+.countdown__timer-item .countdown__timer-flip{
+  min-width: 80px;
+  padding: 0 1rem;
+  color: #fff;
+}
+
+.countdown__timer-item .countdown__timer-unit{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+@media screen and (max-width: 749px) {
+  .container.container--md{
+    padding: 4rem 2rem;
+  }
+  .countdown {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .countdown .countdown__content{
+    margin-bottom: 4rem;
+  }
+
+  .countdown__timer{
+    padding: 1rem 1rem;
+    margin-left: initial;
+  }
+
+  .countdown__timer-item .countdown__timer-flip{
+    min-width: 57px;
+    font-size: 32px;
+  }
+
+  .countdown__timer-item .countdown__timer-unit{
+    font-size: 16px;
+  }
+
+  .countdown .countdown__content .h1{
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+}
+
+/* column */
+.blog .title-wrapper-with-link {
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+}
+
+.blog .title-wrapper-with-link .inr-cnt{
+  margin: 0;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.blog .blog__title{
+  margin-top: 0.8rem;
+  color: #1C1C1C;
+  font-family: "Higure Gothic";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+
+.blog .subtitle{
+  margin: 0;
+}
+
+.blog .blog__posts{
+  margin-top: 0;
+}
+
+.blog .blog__posts .article-card .card__information{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.blog .card__heading.h2{
+  color: var(--black, #393332);
+  font-family: "Noto Sans JP";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  letter-spacing: 1.12px;
+}
+
+.blog.custom-case .categorytitle{
+  padding: 0 2rem;
+}
+
+@media screen and (max-width:749px) {
+  .blog.custom-case .categorytitle{
+    padding: 0 1.5rem;
+  }
+}
+
 
 /* news letter */
 .newsletter__wrapper .newsletter__subheading{
@@ -208,6 +947,214 @@
   background: #fff;
 }
 
+.newsletter__wrapper .inline-richtext{
+  margin-top: 0.5rem;
+}
+
+/* richtext 03 */
+.rich-text.custom03 .rich-text__wrapper{
+  max-width: 100%;
+  padding: 0;
+}
+
+.rich-text.custom03 .rich-text__wrapper .rich-text__blocks{
+  max-width: initial;
+}
+
+.rich-text.custom03 .rich-text__text{
+  max-width: 1100px;
+  margin: 4rem auto 2rem;
+}
+
+/* richtext 04 */
+.rich-text.custom04{
+  background: url(https://cdn.shopify.com/s/files/1/0699/1570/5601/files/img-bg-05.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.rich-text.custom04 .rich-text__heading{
+  margin-top: 0.8rem;
+}
+
+.rich-text.custom04 .button{
+  display: flex;
+  flex-direction: column;
+}
+
+.rich-text.custom04 .button::after{
+  box-shadow: initial;
+}
+
+.rich-text.custom04 .button > img{
+  width: 205px;
+}
+
+.rich-text.custom04 .button .link-text{
+  color: #00B4E6;
+  font-family: "Noto Sans JP";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.44px;
+}
+
+.rich-text.custom04 .rich-text__buttons a{
+  background: initial;
+  border: 0;
+}
+
+@media screen and (max-width: 749) {
+  .rich-text.custom04 .rich-text__heading{
+    font-size: 1.8rem;
+  }
+}
+
+/* richtext 05 */
+.rich-text.custom05.rich-text:not(.rich-text--full-width) .rich-text__wrapper{
+  justify-content: center;
+}
+
+.rich-text.custom05 .rich-text__blocks{
+  max-width: 110rem;
+}
+
+@media screen and (max-width: 749px) {
+  .rich-text.custom05.rich-text:not(.rich-text--full-width) .rich-text__wrapper{
+    width: 100%;
+  }
+}
+
+/* multicolumn 03 */
+.multicolumn.custom03 .multicolumn-card__info .rte{
+  padding: 1rem 2rem;
+}
+
+.multicolumn.custom03 .multicolumn-card__info ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+.multicolumn.custom03 .multicolumn-list{
+  gap: 2.4rem;
+}
+
+.multicolumn.custom03 .categorytitle{
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+
+.multicolumn.custom03 .grid--3-col-desktop .grid__item{
+  width: calc(33.33% - 2.4rem* 2 / 3);
+  max-width: calc(33.33% - 2.4rem* 2 / 3);
+}
+
+.multicolumn.custom03 .multicolumn-card__info ul li{
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 178.571% */
+  letter-spacing: 0.7px;
+  padding-left: 3rem;
+  background: url(https://cdn.shopify.com/s/files/1/0699/1570/5601/files/img-icon-01.svg) no-repeat;
+  background-position: 0 5px;
+}
+
+.multicolumn.custom03 .multicolumn-card__info .inline-richtext{
+  padding-left: 5rem;
+  color: #1C1C1C;
+  font-family: "Noto Sans JP";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  /* background: var(--grad, linear-gradient(90deg, #00B4E6 0%, #00BED4 12.4%, #00D0B4 37.5%, #00D7A9 51.5%, #10D7A8 56.1%, #3DD7A5 65.4%, #84D7A1 78.4%, #E5D79C 94.4%, #FFD79B 98.4%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  position: relative;
+}
+
+.multicolumn.custom03 .multicolumn-card__info .inline-richtext::before{
+  content: '';
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url(https://cdn.shopify.com/s/files/1/0699/1570/5601/files/img-icon-02.svg) no-repeat;
+  background-size: cover!important;
+  position: absolute;
+  top: 9px;
+  left: 1.9rem;
+}
+
+.multicolumn.custom03 .multicolumn-card__info .inline-richtext strong{
+  padding: 0 0.3rem;
+  font-family: "Noto Sans JP";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  background: var(--grad, linear-gradient(90deg, #00B4E6 0%, #00BED4 12.4%, #00D0B4 37.5%, #00D7A9 51.5%, #10D7A8 56.1%, #3DD7A5 65.4%, #84D7A1 78.4%, #E5D79C 94.4%, #FFD79B 98.4%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.multicolumn.custom03 .multicolumn-list__item:nth-child(2) .multicolumn-card__info .inline-richtext::before{
+  background: url(https://cdn.shopify.com/s/files/1/0699/1570/5601/files/img-icon-03.png) no-repeat;
+}
+
+.multicolumn.custom03 .multicolumn-list__item:nth-child(3) .multicolumn-card__info .inline-richtext::before{
+  background: url(https://cdn.shopify.com/s/files/1/0699/1570/5601/files/img-icon-04.svg) no-repeat;
+}
+
+@media screen and (max-width:749px) {
+  .multicolumn.custom-02 .grid--3-col-desktop .grid__item{
+    width: 100%;
+    max-width: initial;
+  }
+
+  .rich-text.custom02 .rich-text__wrapper{
+    padding: 3rem 2rem;
+  }
+
+  .multicolumn.custom03 .grid--3-col-desktop .grid__item{
+    width: 100%;
+    max-width: initial;
+  }
+
+  .rich-text__heading{
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+  
+  .rich-text__blocks .rich-text__text{
+    margin-top: 2rem;
+  }
+}
+
+/* banner__media */
+@media screen and (max-width:749px){
+  .banner__media{
+    aspect-ratio: 3/2;
+  }
+
+  .banner__media img{
+    object-fit: cover;
+  }
+  
+}
 
 /* footer */
 .footer{
