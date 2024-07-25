@@ -13,6 +13,12 @@
           "settings": {
           }
         },
+        "custom_liquid_G7MpG8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<ul class=\"point-list\">\n<li>#クリアホエイプロテイン<\/li>\n<li>＃たんぱく質22g<\/li>\n<li>＃11種のビタミン<\/li>\n<li>＃74種のミネラル<\/li>\n<\/ul>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -54,6 +60,7 @@
       "block_order": [
         "title",
         "price",
+        "custom_liquid_G7MpG8",
         "description",
         "variant_picker",
         "quantity_selector",
@@ -70,15 +77,16 @@
         "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 60,
+        "padding_bottom": 80
       }
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -94,10 +102,253 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "tab_custom01_gJteNK": {
+      "type": "tab-custom01",
+      "blocks": {
+        "tab_r7kqdV": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "高たんぱく質と豊富な栄養",
+            "tab_content": "<div class=\"image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet\">\n  <div class=\"image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item\">\n    <div class=\"image-with-text__media image-with-text__media--adapt global-media-settings background-transparent media\" style=\"padding-bottom: 99.917149958575%;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-09.png\" alt=\"\">\n    <\/div>\n  <\/div>\n  <div class=\"image-with-text__text-item grid__item\">\n    <div id=\"ImageWithText--template--18118080037121__image_with_text_6APAni\" class=\"image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent\">\n      <h2 class=\"image-with-text__heading inline-richtext h2\">1杯で22gの高タンパク質、\n        <br>豊富なビタミンとミネラルを同時に補給\n      <\/h2>\n      <div class=\"image-with-text__text rte body\">\n        <p>​『Body&Co クリアホエイプロテイン』は、「英国の技術」x「沖縄の機能性素材」を掛け合わせた、お腹に優しく、ホエイタンパク、ビタミン、ミネラルを効率よく摂取できるハイパワーなフードテック商品です。1杯で22gのタンパク質が摂取でき、11種のビタミン、74種類のサンゴミネラル、BCAAを5,000mg配合しています。<\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"
+          }
+        },
+        "tab_gEcRrH": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "こだわり抜いた飲みやすさ",
+            "tab_content": "<div class=\"image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet\">\n  <div class=\"image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item\">\n    <div class=\"image-with-text__media image-with-text__media--adapt global-media-settings background-transparent media\" style=\"padding-bottom: 99.917149958575%;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-09.png\" alt=\"\">\n    <\/div>\n  <\/div>\n  <div class=\"image-with-text__text-item grid__item\">\n    <div id=\"ImageWithText--template--18118080037121__image_with_text_6APAni\" class=\"image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent\">\n      <h2 class=\"image-with-text__heading inline-richtext h2\">1杯で22gの高タンパク質、\n        <br>豊富なビタミンとミネラルを同時に補給\n      <\/h2>\n      <div class=\"image-with-text__text rte body\">\n        <p>​『Body&Co クリアホエイプロテイン』は、「英国の技術」x「沖縄の機能性素材」を掛け合わせた、お腹に優しく、ホエイタンパク、ビタミン、ミネラルを効率よく摂取できるハイパワーなフードテック商品です。1杯で22gのタンパク質が摂取でき、11種のビタミン、74種類のサンゴミネラル、BCAAを5,000mg配合しています。<\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"
+          }
+        },
+        "tab_XmBaNp": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "お腹に優しいプロテイン",
+            "tab_content": "<div class=\"image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet\">\n  <div class=\"image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item\">\n    <div class=\"image-with-text__media image-with-text__media--adapt global-media-settings background-transparent media\" style=\"padding-bottom: 99.917149958575%;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-09.png\" alt=\"\">\n    <\/div>\n  <\/div>\n  <div class=\"image-with-text__text-item grid__item\">\n    <div id=\"ImageWithText--template--18118080037121__image_with_text_6APAni\" class=\"image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent\">\n      <h2 class=\"image-with-text__heading inline-richtext h2\">1杯で22gの高タンパク質、\n        <br>豊富なビタミンとミネラルを同時に補給\n      <\/h2>\n      <div class=\"image-with-text__text rte body\">\n        <p>​『Body&Co クリアホエイプロテイン』は、「英国の技術」x「沖縄の機能性素材」を掛け合わせた、お腹に優しく、ホエイタンパク、ビタミン、ミネラルを効率よく摂取できるハイパワーなフードテック商品です。1杯で22gのタンパク質が摂取でき、11種のビタミン、74種類のサンゴミネラル、BCAAを5,000mg配合しています。<\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"
+          }
+        },
+        "tab_6ffzNW": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "沖縄フルーツをまるごと使用",
+            "tab_content": "<div class=\"image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet\">\n  <div class=\"image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item\">\n    <div class=\"image-with-text__media image-with-text__media--adapt global-media-settings background-transparent media\" style=\"padding-bottom: 99.917149958575%;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0699\/1570\/5601\/files\/img-top-09.png\" alt=\"\">\n    <\/div>\n  <\/div>\n  <div class=\"image-with-text__text-item grid__item\">\n    <div id=\"ImageWithText--template--18118080037121__image_with_text_6APAni\" class=\"image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent\">\n      <h2 class=\"image-with-text__heading inline-richtext h2\">1杯で22gの高タンパク質、\n        <br>豊富なビタミンとミネラルを同時に補給\n      <\/h2>\n      <div class=\"image-with-text__text rte body\">\n        <p>​『Body&Co クリアホエイプロテイン』は、「英国の技術」x「沖縄の機能性素材」を掛け合わせた、お腹に優しく、ホエイタンパク、ビタミン、ミネラルを効率よく摂取できるハイパワーなフードテック商品です。1杯で22gのタンパク質が摂取でき、11種のビタミン、74種類のサンゴミネラル、BCAAを5,000mg配合しています。<\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_r7kqdV",
+        "tab_gEcRrH",
+        "tab_XmBaNp",
+        "tab_6ffzNW"
+      ],
+      "settings": {
+      }
+    },
+    "multicolumn_custom02_aV9bPm": {
+      "type": "multicolumn-custom02",
+      "blocks": {
+        "column_QnPien": {
+          "type": "column",
+          "settings": {
+            "title": "続けておトク、最大20％OFF",
+            "text": "<ul><li>長く続けやすい、ずっとお得な20％OFF<\/li><li>初回注文時にオリジナルシェイカー無料プレゼント（仮）<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rPRGUT": {
+          "type": "column",
+          "settings": {
+            "title": "配送頻度、味の変更も可能",
+            "text": "<ul><li>配送頻度の変更が可能。自分のペースで続けることが可能です。<\/li><li>毎月味の変更可能。味に飽きることなくBody&Coをご利用いただけます。<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JJg9zd": {
+          "type": "column",
+          "settings": {
+            "title": "気軽に登録、いつでも解約可能",
+            "text": "<ul><li>休止、解約手続きが簡単なので、お気軽にお申し込みいただけます。<\/li><li>お届け日の事前変更可能<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QnPien",
+        "column_rPRGUT",
+        "column_JJg9zd"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "<p>理想の身体になるには、継続が大切です。<br\/>初回20％OFFのお得な定期継続コースを始めてみませんか？<\/p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_custom02_ajPb9i": {
+      "type": "rich-text-custom02",
+      "blocks": {
+        "heading_ata9Vp": {
+          "type": "heading",
+          "settings": {
+            "heading": "定期便でいつもおトクに。初回20％OFFで購入できます。",
+            "heading_size": "h1"
+          }
+        },
+        "text_Panhca": {
+          "type": "text",
+          "settings": {
+            "text": "<p>定期便でのお申し込みで、初回20％OFF、2回目以降も15％OFFでの購入が可能です。<br\/>さらに、初回注文時にオリジナルシェイカー無料プレゼント！（仮）<\/p>"
+          }
+        },
+        "button_UNyfJr": {
+          "type": "button",
+          "settings": {
+            "button_label": "定期購買でおトクに購入する",
+            "button_link": "shopify:\/\/products\/body-co-クリアホエイプロテイン-沖縄県産パッションフルーツ味-600g-都度-定期",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ata9Vp",
+        "text_Panhca",
+        "button_UNyfJr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_custom05_T7tRbw": {
+      "type": "rich-text-custom05",
+      "blocks": {
+        "heading_d7ryec": {
+          "type": "heading",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_apzpVV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>乳清タンパク(イギリス製造)、砂糖、デキストリン、化石サンゴパウダー、パン酵母(亜鉛、マンガン、銅、ヨウ素、セレン、クロム、モリブデン含 有)、ぶどう糖、パッションフルーツパウダー\/乳化剤、香料、甘味料(ステビア)、ビタミンC、リン酸、ビタミンE、ナイアシン、パントテン酸Ca、 ビタミンB1、ビタミンB6、ビタミンB2、ビタミンA、葉酸、ビタミンD、ビタミンB12、(一部に乳成分・大豆を含む)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_d7ryec",
+        "text_apzpVV"
+      ],
+      "settings": {
+        "title": "<p>原材料・成分<\/p>",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "17218910695ffd45f7": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_ugc_reviews_V8P9p4": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_ugc_reviews_V8P9p4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_custom03_N7mYUp": {
+      "type": "multicolumn-custom03",
+      "blocks": {
+        "column_ME9yEe": {
+          "type": "column",
+          "settings": {
+            "title": "お得な定期購入で <strong>20%<\/strong> OFF",
+            "text": "<ul><li>長く続けやすい、いつでも20％割引<\/li><li>配送頻度の変更、スキップ可能<\/li><li>いつでも定期便の休止、再開、解約が可能<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_B9iUNX": {
+          "type": "column",
+          "settings": {
+            "title": "まとめ買いで最大 20% OFF",
+            "text": "<ul><li>2つ購入で10％OFF<\/li><li>3つ購入で15％OFF、さらにお得<\/li><li>3つ購入で20%OFF、もっともお得<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_D4DpXx": {
+          "type": "column",
+          "settings": {
+            "title": "お友達紹介で <strong>10%<\/strong> OFF",
+            "text": "<ul><li>紹介者、お友達に10％OFFクーポン<\/li><li>5人紹介ごとに紹介者は20％OFFクーポン<\/li><li>10人以上で新作お試しイベントへのご招待<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ME9yEe",
+        "column_B9iUNX",
+        "column_D4DpXx"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "tab_custom01_gJteNK",
+    "multicolumn_custom02_aV9bPm",
+    "rich_text_custom02_ajPb9i",
+    "rich_text_custom05_T7tRbw",
+    "17218910695ffd45f7",
+    "multicolumn_custom03_N7mYUp"
   ]
 }

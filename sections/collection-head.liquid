@@ -1,0 +1,32 @@
+<section class="custom-section">
+  <div class="custom-section__content">
+    <p class="custom-section__subtitle">{{ section.settings.sub_title }}</p>
+    <h1 class="custom-section__title">{{ section.settings.main_title }}</h1>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "コレクションヘッダー（カスタム）",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "Your Main Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Title",
+      "default": "Your Sub Title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "コレクションヘッダー（カスタム）",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

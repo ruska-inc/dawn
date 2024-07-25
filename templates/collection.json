@@ -2,10 +2,18 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
         "color_scheme": "scheme-1"
+      }
+    },
+    "collection_head_HjqqX4": {
+      "type": "collection-head",
+      "settings": {
+        "main_title": "商品一覧",
+        "sub_title": "PRODUCTS"
       }
     },
     "product-grid": {
@@ -27,10 +35,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_custom02_nktCB4": {
+      "type": "rich-text-custom02",
+      "blocks": {
+        "heading_gKanWj": {
+          "type": "heading",
+          "settings": {
+            "heading": "定期便でいつもおトクに。初回20％OFFで購入できます。",
+            "heading_size": "h1"
+          }
+        },
+        "text_9WHgtL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>定期便でのお申し込みで、初回20％OFF、2回目以降も15％OFFでの購入が可能です。<br\/>さらに、初回注文時にオリジナルシェイカー無料プレゼント！（仮）<\/p>"
+          }
+        },
+        "button_i83BfU": {
+          "type": "button",
+          "settings": {
+            "button_label": "定期購買でおトクに購入する",
+            "button_link": "shopify:\/\/products\/body-co-クリアホエイプロテイン-沖縄県産パッションフルーツ味-600g-都度-定期",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gKanWj",
+        "text_9WHgtL",
+        "button_i83BfU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "collection_head_HjqqX4",
+    "product-grid",
+    "rich_text_custom02_nktCB4"
   ]
 }
